@@ -11,6 +11,9 @@ body {
 
   .nav-link {
     color: #fff;
+    &:hover {
+      color: $green2;
+    }
   }
 
   .social {
@@ -18,6 +21,13 @@ body {
       color: #3b5998;
     }
   }
+}
+.kot {
+  background: linear-gradient(
+    to right,
+    #42a5d5,
+    #98d060
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // ================= Header Section =================
@@ -44,7 +54,7 @@ body {
   .nav-link {
     color: #fff;
     &:hover {
-      color: $main-green;
+      color: $main-blue;
     }
   }
 }
