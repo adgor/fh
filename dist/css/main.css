@@ -59,12 +59,12 @@ body {
 
 .main {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.5))), url(https://source.unsplash.com/random/1920x1440);
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://source.unsplash.com/random/1920x1440);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(../../../img/ph4.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../../../img/ph4.jpg);
   min-height: 85vh;
   background-size: cover;
   background-position: center;
-  padding: 180px 0 200px;
+  padding: 120px 0 200px;
   color: #fff;
 }
 

@@ -1,5 +1,5 @@
 @import "./variables";
-@import './mixins'; 
+@import "./mixins";
 
 // // ================= Golobal =================
 body {
@@ -26,7 +26,7 @@ body {
     }
   }
 }
-.menu-offer{
+.menu-offer {
   background: #00c9ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -72,12 +72,12 @@ body {
 // ================= Hero Section =================
 .main {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(https://source.unsplash.com/random/1920x1440);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url(../../../img/ph4.jpg);
   min-height: 85vh;
   background-size: cover;
   background-position: center;
-  padding: 180px 0 200px;
+  padding: 120px 0 200px;
   color: #fff;
 
   h2 {
@@ -95,5 +95,3 @@ body {
     color: $main-green;
   }
 }
-
-
