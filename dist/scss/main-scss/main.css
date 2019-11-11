@@ -1,3 +1,11 @@
+.button1 {
+  display: inline-block;
+  padding: 8px 14px;
+  text-decoration: none;
+  color: #fff;
+  background-color: crimson;
+}
+
 body {
   font-family: Helvetica;
 }
@@ -19,7 +27,7 @@ body {
   color: #3b5998;
 }
 
-.menu-offer {
+.kot {
   background: #00c9ff;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -37,11 +45,11 @@ body {
 #header .navbar-brand {
   font-weight: 600;
   font-size: 1.5em;
-  color: #fff;
+  color: #31a0dd;
 }
 
 #header .navbar-brand span {
-  color: #31a0dd;
+  color: #68ab35;
 }
 
 #header .nav-item {

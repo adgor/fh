@@ -1,5 +1,7 @@
 @import "./variables";
+@import './mixins'; 
 
+// // ================= Golobal =================
 body {
   font-family: Helvetica;
 }
@@ -22,7 +24,7 @@ body {
     }
   }
 }
-.kot {
+.menu-offer{
   background: #00c9ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -45,9 +47,9 @@ body {
   .navbar-brand {
     font-weight: 600;
     font-size: 1.5em;
-    color: $main-blue;
+    color: #fff;
     span {
-      color: $main-green;
+      color: $main-blue;
     }
   }
 
@@ -91,3 +93,5 @@ body {
     color: $main-green;
   }
 }
+
+
