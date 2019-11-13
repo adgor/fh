@@ -2,6 +2,10 @@ body {
   font-family: Helvetica;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 .padd-section {
   padding-bottom: 80px;
   padding-top: 80px;
@@ -76,14 +80,14 @@ body {
   border-radius: 0px;
   -webkit-box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
           box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   padding: 36px 0;
   position: relative;
 }
 
 #pricing .card:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -226,7 +230,7 @@ body {
   position: absolute;
   right: 50px;
   top: 12px;
-  color: #3EC1D5;
+  color: #3ec1d5;
 }
 
 .pri_table_list button {
@@ -279,8 +283,8 @@ body {
 }
 
 .pri_table_list.active.active > button {
-  background: #3EC1D5 none repeat scroll 0 0;
-  border: 1px solid #3EC1D5;
+  background: #3ec1d5 none repeat scroll 0 0;
+  border: 1px solid #3ec1d5;
   color: #fff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -295,7 +299,7 @@ body {
 }
 
 .pri_table_list .saleon {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #3ec1d5 none repeat scroll 0 0;
   color: #fff;
   font-size: 13px;
   font-weight: 700;
@@ -415,8 +419,8 @@ body {
 
 .main {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(../../../img/ph4.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../../../img/ph4.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(../../../img/received_735345516977737.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../../../img/received_735345516977737.jpeg);
   min-height: 85vh;
   background-size: cover;
   background-position: center;
@@ -439,23 +443,27 @@ body {
   color: #68ab35;
 }
 
-#domain, #help {
+#domain,
+#help {
   background: transparent url(../../../img/gradient.jpg) no-repeat center top fixed;
   background-size: cover;
 }
 
-#domain .overlay, #help .overlay {
+#domain .overlay,
+#help .overlay {
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(95%, rgba(255, 255, 255, 0.2)));
   background: linear-gradient(white 0%, rgba(255, 255, 255, 0.2) 95%);
   height: 100%;
   width: 100%;
 }
 
-#domain h1, #help h1 {
+#domain h1,
+#help h1 {
   color: #31a0dd;
 }
 
-#domain .form-control, #help .form-control {
+#domain .form-control,
+#help .form-control {
   background-color: transparent;
   border: 1px solid #dddddd;
   border-radius: 0;
@@ -468,14 +476,16 @@ body {
   background: #fff;
 }
 
-#domain .form-control:focus, #help .form-control:focus {
+#domain .form-control:focus,
+#help .form-control:focus {
   border-color: #68ab35;
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0 none;
 }
 
-#domain .btn, #help .btn {
+#domain .btn,
+#help .btn {
   background: #68ab35;
   border: 0;
   border-radius: 0;
@@ -485,21 +495,25 @@ body {
   transition: 0.3s;
 }
 
-#domain .btn:hover, #help .btn:hover {
+#domain .btn:hover,
+#help .btn:hover {
   background: #98d060;
 }
 
-#domain .btn .fa, #help .btn .fa {
+#domain .btn .fa,
+#help .btn .fa {
   padding-right: 10px;
 }
 
-#domain ul, #help ul {
+#domain ul,
+#help ul {
   display: inline-block;
   margin-top: 40px;
   margin-bottom: 0;
 }
 
-#domain ul li, #help ul li {
+#domain ul li,
+#help ul li {
   background: #68ab35;
   border-radius: 50px;
   float: left;
@@ -512,15 +526,18 @@ body {
   transition: 0.3s;
 }
 
-#domain ul li:hover, #help ul li:hover {
+#domain ul li:hover,
+#help ul li:hover {
   background: #98d060;
 }
 
-#domain ul li .fa, #help ul li .fa {
+#domain ul li .fa,
+#help ul li .fa {
   color: #fff;
 }
 
-#domain .icon i, #help .icon i {
+#domain .icon i,
+#help .icon i {
   padding-top: 40px;
   color: #68ab35;
   font-size: 56px;

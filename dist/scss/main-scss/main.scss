@@ -6,6 +6,10 @@ body {
   font-family: Helvetica;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 // ================= Sections =================
 .padd-section {
   padding-bottom: 80px;
@@ -14,49 +18,44 @@ body {
 
 //  ================= Sections Header =================
 .section-header2 {
-
   h3 {
-  font-size: 32px;
-  color: #111;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  position: relative;
-  padding-bottom: 15px;
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
 
-  &::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 120px;
-    height: 1px;
-    background: #ddd;
-    bottom: 1px;
-    left: calc(50% - 60px);
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 120px;
+      height: 1px;
+      background: #ddd;
+      bottom: 1px;
+      left: calc(50% - 60px);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: $main-green;
+      bottom: 0;
+      left: calc(50% - 20px);
+    }
   }
 
-  &::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 3px;
-    background: $main-green;
-    bottom: 0;
-    left: calc(50% - 20px);
+  p {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #333;
   }
 }
-
-p {
-  text-align: center;
-  padding-bottom: 30px;
-  color: #333;
-}
-
-}
-
-
-
 
 // Testing for Pricing ***************
 .section-bg {
@@ -64,7 +63,7 @@ p {
 }
 
 // Sections Header
-.section-header{
+.section-header {
   h3 {
     font-size: 36px;
     color: #413e66;
@@ -92,12 +91,12 @@ p {
     border: 0;
     border-radius: 0px;
     box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     padding: 36px 0;
     position: relative;
 
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -122,7 +121,7 @@ p {
       -moz-text-align-last: center;
       text-align-last: center;
     }
-  
+
     .card-title {
       margin-bottom: 16px;
       color: #535074;
@@ -180,12 +179,11 @@ p {
     &:hover {
       background: $blue2;
     }
-  }      
+  }
 }
 
 // Media for pricing tables v1
-@media (max-width: 991px){
-
+@media (max-width: 991px) {
   #pricing {
     padding-bottom: 30px;
   }
@@ -195,7 +193,7 @@ p {
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .section-header p {
     width: 100%;
   }
@@ -211,7 +209,7 @@ p {
   text-align: center;
   transition: all 0.4s ease 0s;
   background: #fff;
-  
+
   span {
     font-size: 16px;
   }
@@ -241,7 +239,7 @@ p {
     position: absolute;
     right: 50px;
     top: 12px;
-    color: #3EC1D5;
+    color: #3ec1d5;
   }
   button {
     background: #444 none repeat scroll 0 0;
@@ -253,12 +251,12 @@ p {
     transition: all 0.4s ease 0s;
     border-radius: 30px;
 
-     &:hover {
+    &:hover {
       background-color: #fff;
       border: 1px solid #333;
       color: #333;
-    }  
-  }  
+    }
+  }
   h3 {
     color: #333;
     font-size: 24px;
@@ -284,13 +282,13 @@ p {
     position: relative;
     overflow: hidden;
 
-    &.active>button {
-      background: #3EC1D5 none repeat scroll 0 0;
-      border: 1px solid #3EC1D5;
+    &.active > button {
+      background: #3ec1d5 none repeat scroll 0 0;
+      border: 1px solid #3ec1d5;
       color: #fff;
       transition: 0.4s;
     }
-    &.active>button:hover {
+    &.active > button:hover {
       background: #333 none repeat scroll 0 0;
       border: 1px solid #333;
       color: #fff;
@@ -298,7 +296,7 @@ p {
     }
   }
   .saleon {
-    background: #3EC1D5 none repeat scroll 0 0;
+    background: #3ec1d5 none repeat scroll 0 0;
     color: #fff;
     font-size: 13px;
     font-weight: 700;
@@ -312,14 +310,14 @@ p {
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
-  }   
+  }
 }
 
 .area-padding {
   padding: 70px 0px 80px;
 }
 
-.section-headline {  
+.section-headline {
   h2 {
     display: inline-block;
     font-size: 40px;
@@ -363,17 +361,6 @@ p {
     font-size: 25px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 // ================= TopBar =================
 #topbar {
@@ -443,7 +430,7 @@ p {
 .main {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url(../../../img/ph4.jpg);
+    url(../../../img/received_735345516977737.jpeg);
   min-height: 85vh;
   background-size: cover;
   background-position: center;
@@ -467,9 +454,10 @@ p {
 }
 
 // ================= Domain/Help Section =================
-#domain, #help {
-  background: transparent url(../../../img/gradient.jpg) no-repeat
-    center top fixed;
+#domain,
+#help {
+  background: transparent url(../../../img/gradient.jpg) no-repeat center top
+    fixed;
   background-size: cover;
 
   .overlay {
@@ -550,7 +538,7 @@ p {
     font-size: 56px;
     line-height: 1;
     transition: 0.5s;
-  }  
+  }
 }
 
 // =================  why-us Section =================
@@ -631,7 +619,7 @@ p {
       &:hover {
         color: $green2;
       }
-    }    
+    }
   }
 
   .icon i {
@@ -639,7 +627,7 @@ p {
     font-size: 36px;
     line-height: 1;
     transition: 0.5s;
-  }  
+  }
 
   .section-title {
     margin-bottom: 80px;
@@ -650,10 +638,10 @@ p {
       letter-spacing: 2px;
       margin-bottom: 20px;
       text-transform: capitalize;
-    } 
+    }
     .separator {
       margin: 0;
-    }   
+    }
   }
 
   h1 {
@@ -710,19 +698,9 @@ p {
   }
 }
 
-
-
-
-
-
-
-
-
-
 // ================= TODO: Responsive =================
 
 @media (max-width: 992px) {
-
   // Free Offer Section
   #free-offer .feature-block {
     margin-bottom: 30px;
@@ -734,7 +712,6 @@ p {
 }
 
 @media (max-width: 768px) {
-  
   #faq #faq-list a {
     font-size: 18px;
   }
@@ -745,7 +722,6 @@ p {
 }
 
 @media (max-width: 575px) {
-
   // Domain Section
   #domain .form-control {
     margin-bottom: 30px;
