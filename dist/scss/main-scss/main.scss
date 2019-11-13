@@ -1,10 +1,379 @@
 @import "./variables";
 @import "./mixins";
 
-// // ================= Golobal =================
+// ================= Golobal =================
 body {
   font-family: Helvetica;
 }
+
+// ================= Sections =================
+.padd-section {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+//  ================= Sections Header =================
+.section-header2 {
+
+  h3 {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: $main-green;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+}
+
+p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+}
+
+}
+
+
+
+
+// Testing for Pricing ***************
+.section-bg {
+  background: #f5f8fd;
+}
+
+// Sections Header
+.section-header{
+  h3 {
+    font-size: 36px;
+    color: #413e66;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #535074;
+    width: 50%;
+  }
+}
+
+// Pricin tables v1
+#pricing {
+  padding: 80px 0;
+
+  .card {
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
+    transition: all .3s ease-in-out;
+    padding: 36px 0;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 5px;
+      background-color: $main-blue;
+      transition: 0.5s;
+    }
+
+    &:hover {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+    }
+    &:hover:after {
+      width: 100%;
+    }
+
+    .card-header {
+      background-color: white;
+      border-bottom: 0px;
+      -moz-text-align-last: center;
+      text-align-last: center;
+    }
+  
+    .card-title {
+      margin-bottom: 16px;
+      color: #535074;
+    }
+    .card-block {
+      padding-top: 0;
+      text-align: center;
+    }
+
+    .list-group-item {
+      border: 0px;
+      padding: 6px;
+      color: #413e66;
+      font-weight: 300;
+    }
+
+    h3 {
+      font-size: 64px;
+      margin-bottom: 0px;
+      color: #535074;
+    }
+
+    .currency {
+      font-size: 30px;
+      position: relative;
+      font-weight: 400;
+      top: -30px;
+      letter-spacing: 0px;
+    }
+
+    .period {
+      font-size: 16px;
+      color: #6c67a3;
+      letter-spacing: 0px;
+    }
+
+    .list-group {
+      margin-bottom: 15px;
+    }
+  }
+
+  .btn {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: #5f5b96;
+    border-radius: 0;
+    padding: 10px 24px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    display: inline-block;
+    background: $main-blue;
+    color: #fff;
+
+    &:hover {
+      background: $blue2;
+    }
+  }      
+}
+
+// Media for pricing tables v1
+@media (max-width: 991px){
+
+  #pricing {
+    padding-bottom: 30px;
+  }
+
+  #pricing .card {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px){
+  .section-header p {
+    width: 100%;
+  }
+}
+
+// Pricin tables v2
+.pricing-area {
+  background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
+}
+
+.pri_table_list {
+  border: 1px solid #ccc;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+  background: #fff;
+  
+  span {
+    font-size: 16px;
+  }
+
+  ol li {
+    border-bottom: 1px solid #ccc;
+    color: #666;
+    padding: 12px 15px;
+    position: relative;
+    text-align: left;
+  }
+
+  li.check.cross::after {
+    content: "\f00d";
+    font-family: fontawesome;
+    font-size: 14px;
+    position: absolute;
+    right: 50px;
+    top: 12px;
+    color: indianred;
+  }
+
+  li.check::after {
+    content: "\f00c";
+    font-family: fontawesome;
+    font-size: 14px;
+    position: absolute;
+    right: 50px;
+    top: 12px;
+    color: #3EC1D5;
+  }
+  button {
+    background: #444 none repeat scroll 0 0;
+    border: 1px solid #444;
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    border-radius: 30px;
+
+     &:hover {
+      background-color: #fff;
+      border: 1px solid #333;
+      color: #333;
+    }  
+  }  
+  h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 30px 0 20px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+
+    &.active {
+      background: #f5f5f5 none repeat scroll 0 0;
+      color: #333;
+      transition: all 0.4s ease 0s;
+    }
+  }
+  ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0 0 25px;
+  }
+  &.active {
+    transition: all 0.4s ease 0s;
+    position: relative;
+    overflow: hidden;
+
+    &.active>button {
+      background: #3EC1D5 none repeat scroll 0 0;
+      border: 1px solid #3EC1D5;
+      color: #fff;
+      transition: 0.4s;
+    }
+    &.active>button:hover {
+      background: #333 none repeat scroll 0 0;
+      border: 1px solid #333;
+      color: #fff;
+      transition: 0.4s;
+    }
+  }
+  .saleon {
+    background: #3EC1D5 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    left: -26px;
+    padding: 2px 25px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 16px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+  }   
+}
+
+.area-padding {
+  padding: 70px 0px 80px;
+}
+
+.section-headline {  
+  h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    position: relative;
+    text-transform: capitalize;
+
+    &::after {
+      border: 1px solid #333;
+      bottom: -20px;
+      content: "";
+      left: 0;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      width: 40%;
+    }
+  }
+}
+
+.sec-head {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0 0 10px;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+
+@media (max-width: 767px) {
+  .pri_table_list {
+    margin-bottom: 30px;
+  }
+
+  .section-headline h2 {
+    font-size: 30px;
+  }
+  .section-headline h3 {
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 // ================= TopBar =================
 #topbar {
@@ -26,6 +395,7 @@ body {
     }
   }
 }
+
 .menu-offer {
   background: #00c9ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -93,5 +463,295 @@ body {
   }
   i {
     color: $main-green;
+  }
+}
+
+// ================= Domain/Help Section =================
+#domain, #help {
+  background: transparent url(../../../img/gradient.jpg) no-repeat
+    center top fixed;
+  background-size: cover;
+
+  .overlay {
+    background: linear-gradient(
+      rgba(255, 255, 255, 100) 0%,
+      rgba(255, 255, 255, 0.2) 95%
+    );
+    height: 100%;
+    width: 100%;
+  }
+
+  h1 {
+    color: $main-blue;
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    color: #888;
+    font-size: 11px;
+    font-weight: 600;
+    height: 50px;
+    text-align: center;
+    width: 70%;
+    background: #fff;
+
+    &:focus {
+      border-color: $main-green;
+      box-shadow: none;
+      outline: 0 none;
+    }
+  }
+
+  .btn {
+    background: $main-green;
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+    width: 30%;
+    transition: 0.3s;
+
+    &:hover {
+      background: $green2;
+    }
+    .fa {
+      padding-right: 10px;
+    }
+  }
+  ul {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  ul li {
+    background: $main-green;
+    border-radius: 50px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
+    transition: 0.3s;
+    &:hover {
+      background: $green2;
+    }
+
+    .fa {
+      color: #fff;
+    }
+  }
+
+  .icon i {
+    padding-top: 40px;
+    color: $main-green;
+    font-size: 56px;
+    line-height: 1;
+    transition: 0.5s;
+  }  
+}
+
+// =================  why-us Section =================
+#why-us {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+
+  .box {
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    float: left;
+
+    i {
+      color: $main-green;
+      font-size: 36px;
+      line-height: 1;
+      transition: 0.5s;
+    }
+  }
+
+  .title {
+    margin-left: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+    a {
+      color: #111;
+    }
+  }
+
+  .box:hover .title a {
+    color: $main-green;
+  }
+
+  .description {
+    font-size: 14px;
+    margin-left: 60px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+}
+
+// ================= Free Offer Section =================
+#free-offer {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+
+  .feature-block {
+    background: #fff none repeat scroll 0 0;
+    padding: 30px 20px;
+    transition: all 0.5s ease-in-out 0s;
+    &:hover {
+      box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+      transition: all 0.5s ease-in-out 0s;
+    }
+
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #505050;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: 0.3s;
+
+      &:hover {
+        color: $green2;
+      }
+    }    
+  }
+
+  .icon i {
+    color: $main-green;
+    font-size: 36px;
+    line-height: 1;
+    transition: 0.5s;
+  }  
+
+  .section-title {
+    margin-bottom: 80px;
+
+    h2 {
+      font-size: 45px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    } 
+    .separator {
+      margin: 0;
+    }   
+  }
+
+  h1 {
+    color: $main-blue;
+  }
+}
+
+// ================= Frequently Asked Questions Section =================
+#faq {
+  padding: 60px 0;
+  overflow: hidden;
+
+  #faq-list {
+    padding: 0;
+    list-style: none;
+
+    li {
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    a {
+      padding: 22px 0;
+      display: block;
+      position: relative;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 400;
+      padding-right: 20px;
+    }
+
+    i {
+      font-size: 24px;
+      position: absolute;
+      right: 0;
+      top: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    a.collapse {
+      color: $main-blue;
+    }
+
+    a.collapsed {
+      color: #000;
+    }
+
+    i::before {
+      content: "\f2c7" !important;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+// ================= TODO: Responsive =================
+
+@media (max-width: 992px) {
+
+  // Free Offer Section
+  #free-offer .feature-block {
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  #faq #faq-list a {
+    font-size: 18px;
+  }
+
+  #faq #faq-list i {
+    top: 13px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  // Domain Section
+  #domain .form-control {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  #domain .btn {
+    width: 100%;
   }
 }
