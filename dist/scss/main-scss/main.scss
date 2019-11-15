@@ -1,6 +1,23 @@
 @import "./variables";
 @import "./mixins";
 
+// Prova
+// buttons 
+// https://freebiesupply.com/blog/css-button-hover-effects/
+// buttons
+// background: linear-gradient(45deg, #1de099, #1dc8cd);
+
+// hero overlay
+// background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)),
+
+// call to action
+// background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)),
+
+
+
+
+
+
 // ================= Golobal =================
 body {
   font-family: Helvetica;
@@ -429,13 +446,19 @@ body {
 // ================= Hero Section =================
 .main {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+  background: linear-gradient(45deg, rgba(29, 224, 153, 0.2), rgba(29, 200, 205, 0.8)),
     url(../../../img/photo1.jpg);
   min-height: 85vh;
   background-size: cover;
   background-position: center;
   padding: 280px 0 200px;
   color: #fff;
+
+  .btn{
+    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    color: #fff;
+
+  }
 
   h2 {
     font-size: 2.6em;
@@ -456,7 +479,7 @@ body {
 // ================= Domain/Help Section =================
 #domain,
 #help {
-  background: transparent url(../../../img/gradient.jpg) no-repeat center top
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../../../img/gradient.jpg) no-repeat center top
     fixed;
   background-size: cover;
 
