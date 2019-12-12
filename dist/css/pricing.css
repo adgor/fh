@@ -101,7 +101,6 @@ a {
 
 .services-small-item:hover .custom-separator {
   background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
-  color: #2b708b !important;
 }
 
 .services-small-item:hover + .item-bg {
@@ -176,6 +175,7 @@ a {
   height: 4px;
   background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
   border-radius: 100px;
+  position: relative;
 }
 
 .services-small-item .button {
@@ -242,7 +242,8 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.services-small-item1:hover .services-title {
+.services-small-item1:hover .services-title,
+.services-small-item1:hover .services-price {
   color: #ffffff;
 }
 
@@ -255,13 +256,17 @@ a {
   color: #2b708b !important;
 }
 
+.services-small-item1:hover .custom-separator {
+  background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
+}
+
 .services-small-item1:hover + .item-bg {
   bottom: 30px;
 }
 
 .services-small-item1 .icon {
   width: 139px;
-  height: 113px;
+  height: 70px;
   margin: auto;
   position: relative;
   margin-bottom: 20px;
@@ -297,6 +302,18 @@ a {
   transition: all 0.3s ease 0s;
 }
 
+.services-small-item1 .services-price {
+  font-weight: 500;
+  font-size: 30px;
+  color: #3b566e;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .services-small-item1 p {
   font-weight: 400;
   font-size: 14px;
@@ -308,6 +325,14 @@ a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   margin-bottom: 30px;
+}
+
+.services-small-item1 .custom-separator {
+  width: auto;
+  height: 4px;
+  background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
+  border-radius: 100px;
+  position: relative;
 }
 
 .services-small-item1 .button {
@@ -349,8 +374,8 @@ a {
   top: 0px;
   left: 0px;
   border-radius: 5px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#a18cd1), to(#fbc2eb));
-  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#a18cd1), to(#fbc2eb));
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   opacity: 0;
@@ -374,7 +399,8 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.services-small-item2:hover .services-title {
+.services-small-item2:hover .services-title,
+.services-small-item2:hover .services-price {
   color: #ffffff;
 }
 
@@ -387,13 +413,17 @@ a {
   color: #2b708b !important;
 }
 
+.services-small-item2:hover .custom-separator {
+  background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
+}
+
 .services-small-item2:hover + .item-bg {
   bottom: 30px;
 }
 
 .services-small-item2 .icon {
   width: 139px;
-  height: 113px;
+  height: 70px;
   margin: auto;
   position: relative;
   margin-bottom: 20px;
@@ -429,6 +459,18 @@ a {
   transition: all 0.3s ease 0s;
 }
 
+.services-small-item2 .services-price {
+  font-weight: 500;
+  font-size: 30px;
+  color: #3b566e;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .services-small-item2 p {
   font-weight: 400;
   font-size: 14px;
@@ -440,6 +482,14 @@ a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   margin-bottom: 30px;
+}
+
+.services-small-item2 .custom-separator {
+  width: auto;
+  height: 4px;
+  background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
+  border-radius: 100px;
+  position: relative;
 }
 
 .services-small-item2 .button {
@@ -506,7 +556,8 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.services-small-item3:hover .services-title {
+.services-small-item3:hover .services-title,
+.services-small-item3:hover .services-price {
   color: #ffffff;
 }
 
@@ -519,13 +570,17 @@ a {
   color: #2b708b !important;
 }
 
+.services-small-item3:hover .custom-separator {
+  background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
+}
+
 .services-small-item3:hover + .item-bg {
   bottom: 30px;
 }
 
 .services-small-item3 .icon {
   width: 139px;
-  height: 113px;
+  height: 70px;
   margin: auto;
   position: relative;
   margin-bottom: 20px;
@@ -561,6 +616,18 @@ a {
   transition: all 0.3s ease 0s;
 }
 
+.services-small-item3 .services-price {
+  font-weight: 500;
+  font-size: 30px;
+  color: #3b566e;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .services-small-item3 p {
   font-weight: 400;
   font-size: 14px;
@@ -572,6 +639,14 @@ a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   margin-bottom: 30px;
+}
+
+.services-small-item3 .custom-separator {
+  width: auto;
+  height: 4px;
+  background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
+  border-radius: 100px;
+  position: relative;
 }
 
 .services-small-item3 .button {

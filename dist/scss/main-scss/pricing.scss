@@ -94,7 +94,6 @@ a {
     }
     .custom-separator {
       background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
-      color: #2b708b !important;
     }
 
     margin-top: -15px;
@@ -178,7 +177,9 @@ a {
     height: 4px;
     background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
     border-radius: 100px;
+    position: relative;
   }
+
   .button {
     position: relative;
     z-index: 2;
@@ -196,6 +197,7 @@ a {
     }
   }
 }
+
 .services-small-item1 {
   display: block;
   background: #fff;
@@ -239,7 +241,8 @@ a {
         -webkit-text-fill-color: transparent;
       }
     }
-    .services-title {
+    .services-title,
+    .services-price {
       color: #ffffff;
     }
     p {
@@ -255,6 +258,10 @@ a {
         color: #2b708b !important;
       }
     }
+    .custom-separator {
+      background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
+    }
+
     margin-top: -15px;
     + {
       .item-bg {
@@ -262,9 +269,10 @@ a {
       }
     }
   }
+
   .icon {
     width: 139px;
-    height: 113px;
+    height: 70px;
     margin: auto;
     position: relative;
     margin-bottom: 20px;
@@ -303,6 +311,19 @@ a {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
+  .services-price {
+    font-weight: 500;
+    font-size: 30px;
+    color: #3b566e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
   p {
     font-weight: 400;
     font-size: 14px;
@@ -317,6 +338,14 @@ a {
     transition: all 0.3s ease 0s;
     margin-bottom: 30px;
   }
+  .custom-separator {
+    width: auto;
+    height: 4px;
+    background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
+    border-radius: 100px;
+    position: relative;
+  }
+
   .button {
     position: relative;
     z-index: 2;
@@ -334,6 +363,7 @@ a {
     }
   }
 }
+
 .services-small-item2 {
   display: block;
   background: #fff;
@@ -356,7 +386,7 @@ a {
     top: 0px;
     left: 0px;
     border-radius: 5px;
-    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -377,7 +407,8 @@ a {
         -webkit-text-fill-color: transparent;
       }
     }
-    .services-title {
+    .services-title,
+    .services-price {
       color: #ffffff;
     }
     p {
@@ -393,6 +424,10 @@ a {
         color: #2b708b !important;
       }
     }
+    .custom-separator {
+      background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
+    }
+
     margin-top: -15px;
     + {
       .item-bg {
@@ -400,9 +435,10 @@ a {
       }
     }
   }
+
   .icon {
     width: 139px;
-    height: 113px;
+    height: 70px;
     margin: auto;
     position: relative;
     margin-bottom: 20px;
@@ -441,6 +477,19 @@ a {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
+  .services-price {
+    font-weight: 500;
+    font-size: 30px;
+    color: #3b566e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
   p {
     font-weight: 400;
     font-size: 14px;
@@ -455,6 +504,14 @@ a {
     transition: all 0.3s ease 0s;
     margin-bottom: 30px;
   }
+  .custom-separator {
+    width: auto;
+    height: 4px;
+    background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
+    border-radius: 100px;
+    position: relative;
+  }
+
   .button {
     position: relative;
     z-index: 2;
@@ -472,6 +529,7 @@ a {
     }
   }
 }
+
 .services-small-item3 {
   display: block;
   background: #fff;
@@ -515,7 +573,8 @@ a {
         -webkit-text-fill-color: transparent;
       }
     }
-    .services-title {
+    .services-title,
+    .services-price {
       color: #ffffff;
     }
     p {
@@ -531,6 +590,10 @@ a {
         color: #2b708b !important;
       }
     }
+    .custom-separator {
+      background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
+    }
+
     margin-top: -15px;
     + {
       .item-bg {
@@ -538,9 +601,10 @@ a {
       }
     }
   }
+
   .icon {
     width: 139px;
-    height: 113px;
+    height: 70px;
     margin: auto;
     position: relative;
     margin-bottom: 20px;
@@ -579,6 +643,19 @@ a {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
+  .services-price {
+    font-weight: 500;
+    font-size: 30px;
+    color: #3b566e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
   p {
     font-weight: 400;
     font-size: 14px;
@@ -593,6 +670,14 @@ a {
     transition: all 0.3s ease 0s;
     margin-bottom: 30px;
   }
+  .custom-separator {
+    width: auto;
+    height: 4px;
+    background: linear-gradient(135deg, #80d0c7 0%, #13547a 100%);
+    border-radius: 100px;
+    position: relative;
+  }
+
   .button {
     position: relative;
     z-index: 2;
