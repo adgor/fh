@@ -258,12 +258,33 @@ body {
 #services .services-small-item .button i {
   width: 42px;
   height: 42px;
+  font-style: normal;
   background-image: linear-gradient(135deg, #319fdc 0%, #31a0dd 100%);
   line-height: 42px;
   text-align: center;
   border-radius: 4px;
   color: #fff;
   padding-left: 3px;
+}
+
+#services .ho1:before {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2b32b2), to(#1488cc));
+  background-image: linear-gradient(to right, #2b32b2, #1488cc);
+}
+
+#services .ho2:before {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2948ff), to(#396afc));
+  background-image: linear-gradient(to right, #2948ff, #396afc);
+}
+
+#services .ho3:before {
+  background-image: -webkit-gradient(linear, left top, right top, from(#021b79), to(#0575e6));
+  background-image: linear-gradient(to right, #021b79, #0575e6);
+}
+
+#services .ho4:before {
+  background-image: -webkit-gradient(linear, left top, right top, from(#363795), to(#005c97));
+  background-image: linear-gradient(to right, #363795, #005c97);
 }
 
 #services .services-small-item1 {

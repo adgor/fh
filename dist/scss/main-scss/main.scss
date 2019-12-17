@@ -95,8 +95,8 @@ body {
   }
 }
 
-// Pricin tables 
-#services{
+// Pricin tables
+#services {
   a {
     text-decoration: none !important;
   }
@@ -194,7 +194,7 @@ body {
       .custom-separator {
         background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
       }
-  
+
       margin-top: -15px;
       + {
         .item-bg {
@@ -202,7 +202,7 @@ body {
         }
       }
     }
-  
+
     .icon {
       width: 139px;
       height: 70px;
@@ -278,13 +278,14 @@ body {
       border-radius: 100px;
       position: relative;
     }
-  
+
     .button {
       position: relative;
       z-index: 2;
       i {
         width: 42px;
         height: 42px;
+        font-style: normal;
         background-image: linear-gradient(135deg, $blue2 0%, $main-blue 100%);
         line-height: 42px;
         text-align: center;
@@ -296,7 +297,28 @@ body {
       }
     }
   }
-  
+
+  .ho1 {
+    &:before {
+      background-image: linear-gradient(to right, #2b32b2, #1488cc);
+    }
+  }
+  .ho2 {
+    &:before {
+      background-image: linear-gradient(to right, #2948ff, #396afc);
+    }
+  }
+  .ho3 {
+    &:before {
+      background-image: linear-gradient(to right, #021b79, #0575e6);
+    }
+  }
+  .ho4 {
+    &:before {
+      background-image: linear-gradient(to right, #363795, #005c97);
+    }
+  }
+
   .services-small-item1 {
     display: block;
     background: #fff;
@@ -360,7 +382,7 @@ body {
       .custom-separator {
         background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
       }
-  
+
       margin-top: -15px;
       + {
         .item-bg {
@@ -368,7 +390,7 @@ body {
         }
       }
     }
-  
+
     .icon {
       width: 139px;
       height: 70px;
@@ -444,7 +466,7 @@ body {
       border-radius: 100px;
       position: relative;
     }
-  
+
     .button {
       position: relative;
       z-index: 2;
@@ -462,7 +484,7 @@ body {
       }
     }
   }
-  
+
   .services-small-item2 {
     display: block;
     background: #fff;
@@ -526,7 +548,7 @@ body {
       .custom-separator {
         background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
       }
-  
+
       margin-top: -15px;
       + {
         .item-bg {
@@ -534,7 +556,7 @@ body {
         }
       }
     }
-  
+
     .icon {
       width: 139px;
       height: 70px;
@@ -610,7 +632,7 @@ body {
       border-radius: 100px;
       position: relative;
     }
-  
+
     .button {
       position: relative;
       z-index: 2;
@@ -628,7 +650,7 @@ body {
       }
     }
   }
-  
+
   .services-small-item3 {
     display: block;
     background: #fff;
@@ -692,7 +714,7 @@ body {
       .custom-separator {
         background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
       }
-  
+
       margin-top: -15px;
       + {
         .item-bg {
@@ -700,7 +722,7 @@ body {
         }
       }
     }
-  
+
     .icon {
       width: 139px;
       height: 70px;
@@ -776,7 +798,7 @@ body {
       border-radius: 100px;
       position: relative;
     }
-  
+
     .button {
       position: relative;
       z-index: 2;
@@ -794,7 +816,7 @@ body {
       }
     }
   }
-  
+
   .services-small-item.active {
     &:before {
       opacity: 1;
@@ -817,7 +839,11 @@ body {
     }
     .button {
       i {
-        background-image: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
+        background-image: linear-gradient(
+          135deg,
+          #fff 0%,
+          #fff 100%
+        ) !important;
         color: #2b708b !important;
       }
     }
@@ -841,7 +867,6 @@ body {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
-  
 }
 
 // ================= TopBar =================
