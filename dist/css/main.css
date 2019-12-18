@@ -276,7 +276,7 @@ body {
   padding-left: 3px;
 }
 
-#services .services-small-item .button .kot1 {
+#services .services-small-item .button .kot2 {
   font-weight: 600;
   font-size: 32px;
 }
@@ -449,16 +449,10 @@ body {
 }
 
 #services .services-small-item-1 .button i {
-  width: 42px;
-  height: 42px;
   font-style: normal;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0846a1));
   background-image: linear-gradient(#0846a1);
-  line-height: 42px;
-  text-align: center;
-  border-radius: 4px;
   color: #fff;
-  padding-left: 3px;
 }
 
 #services .services-small-item-1 .button .kot1 {
