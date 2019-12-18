@@ -277,13 +277,13 @@ body {
 }
 
 #services .ho1:before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#2b32b2), to(#1488cc));
-  background-image: linear-gradient(to right, #2b32b2, #1488cc);
+  background-image: -webkit-gradient(linear, left top, right top, from(#32A2DE), to(#44A3DD));
+  background-image: linear-gradient(to right, #32A2DE, #44A3DD);
 }
 
 #services .ho2:before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#2948ff), to(#396afc));
-  background-image: linear-gradient(to right, #2948ff, #396afc);
+  background-image: -webkit-gradient(linear, left top, right top, from(#2b32b2), to(#1488cc));
+  background-image: linear-gradient(to right, #2b32b2, #1488cc);
 }
 
 #services .ho3:before {

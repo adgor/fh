@@ -2,7 +2,9 @@
 @import "./mixins";
 
 // Prova
-// blue color #0846A1
+// fb blue color #0846A1 
+// fH hover menu color gradient   #32A2DE, #44A3DD
+
 
 // buttons
 // https://freebiesupply.com/blog/css-button-hover-effects/
@@ -310,12 +312,12 @@ body {
 
   .ho1 {
     &:before {
-      background-image: linear-gradient(to right, #2b32b2, #1488cc);
+      background-image: linear-gradient(to right,  #32A2DE, #44A3DD);
     }
   }
   .ho2 {
     &:before {
-      background-image: linear-gradient(to right, #2948ff, #396afc);
+      background-image: linear-gradient(to right, #2b32b2, #1488cc);
     }
   }
   .ho3 {
