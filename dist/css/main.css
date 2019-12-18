@@ -209,6 +209,11 @@ body {
   transition: all 0.3s ease 0s;
 }
 
+#services .services-small-item .icon img {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 #services .services-small-item .services-title {
   font-weight: 400;
   font-size: 16px;
@@ -277,8 +282,8 @@ body {
 }
 
 #services .ho1:before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#32A2DE), to(#44A3DD));
-  background-image: linear-gradient(to right, #32A2DE, #44A3DD);
+  background-image: -webkit-gradient(linear, left top, right top, from(#32a2de), to(#44a3dd));
+  background-image: linear-gradient(to right, #32a2de, #44a3dd);
 }
 
 #services .ho2:before {
@@ -319,8 +324,8 @@ body {
   top: 0px;
   left: 0px;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0846A1));
-  background-image: linear-gradient(#0846A1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0846a1));
+  background-image: linear-gradient(#0846a1);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   opacity: 0;
@@ -355,7 +360,7 @@ body {
 
 #services .services-small-item-1:hover .button i {
   background-image: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
-  color: #0846A1 !important;
+  color: #0846a1 !important;
 }
 
 #services .services-small-item-1:hover .custom-separator {
@@ -384,8 +389,8 @@ body {
   width: 100%;
   top: 22px;
   z-index: 2;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0846A1));
-  background-image: linear-gradient(#0846A1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0846a1));
+  background-image: linear-gradient(#0846a1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -395,7 +400,7 @@ body {
 #services .services-small-item-1 .services-title {
   font-weight: 400;
   font-size: 16px;
-  color: #0846A1;
+  color: #0846a1;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -407,7 +412,7 @@ body {
 #services .services-small-item-1 .services-price {
   font-weight: 500;
   font-size: 30px;
-  color: #0846A1;
+  color: #0846a1;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -419,7 +424,7 @@ body {
 #services .services-small-item-1 p {
   font-weight: 400;
   font-size: 14px;
-  color: #0846A1;
+  color: #0846a1;
   letter-spacing: 0.88px;
   line-height: 26px;
   position: relative;
@@ -432,8 +437,8 @@ body {
 #services .services-small-item-1 .custom-separator {
   width: auto;
   height: 4px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0846A1));
-  background: linear-gradient(#0846A1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0846a1));
+  background: linear-gradient(#0846a1);
   border-radius: 100px;
   position: relative;
 }
@@ -447,8 +452,8 @@ body {
   width: 42px;
   height: 42px;
   font-style: normal;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0846A1));
-  background-image: linear-gradient(#0846A1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0846a1));
+  background-image: linear-gradient(#0846a1);
   line-height: 42px;
   text-align: center;
   border-radius: 4px;

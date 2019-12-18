@@ -2,9 +2,8 @@
 @import "./mixins";
 
 // Prova
-// fb blue color #0846A1 
+// fb blue color #0846A1
 // fH hover menu color gradient   #32A2DE, #44A3DD
-
 
 // buttons
 // https://freebiesupply.com/blog/css-button-hover-effects/
@@ -22,7 +21,7 @@ body {
   font-family: Helvetica;
 }
 
-.kot{
+.kot {
   font-weight: 800;
 }
 
@@ -210,7 +209,7 @@ body {
         }
       }
     }
-   
+
     .icon {
       width: 139px;
       height: 70px;
@@ -233,6 +232,12 @@ body {
         background-image: linear-gradient($main-blue);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+      }
+      img {
         -webkit-transition: all 0.3s ease 0s;
         -moz-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
@@ -303,16 +308,16 @@ body {
         color: #fff;
         padding-left: 3px;
       }
-      .kot1{
+      .kot1 {
         font-weight: 600;
-        font-size: 32px;        
+        font-size: 32px;
       }
     }
   }
 
   .ho1 {
     &:before {
-      background-image: linear-gradient(to right,  #32A2DE, #44A3DD);
+      background-image: linear-gradient(to right, #32a2de, #44a3dd);
     }
   }
   .ho2 {
@@ -353,7 +358,7 @@ body {
       top: 0px;
       left: 0px;
       border-radius: 5px;
-      background-image: linear-gradient(#0846A1);
+      background-image: linear-gradient(#0846a1);
       -webkit-transition: all 0.3s ease 0s;
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
@@ -388,7 +393,7 @@ body {
             #fff 0%,
             #fff 100%
           ) !important;
-          color: #0846A1 !important;
+          color: #0846a1 !important;
         }
       }
       .custom-separator {
@@ -402,7 +407,7 @@ body {
         }
       }
     }
-   
+
     .icon {
       width: 139px;
       height: 70px;
@@ -422,7 +427,7 @@ body {
         top: 22px;
         z-index: 2;
         // font-size: 28px;
-        background-image: linear-gradient(#0846A1);
+        background-image: linear-gradient(#0846a1);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-transition: all 0.3s ease 0s;
@@ -434,7 +439,7 @@ body {
     .services-title {
       font-weight: 400;
       font-size: 16px;
-      color: #0846A1;
+      color: #0846a1;
       letter-spacing: 0.7px;
       margin-bottom: 15px;
       position: relative;
@@ -447,7 +452,7 @@ body {
     .services-price {
       font-weight: 500;
       font-size: 30px;
-      color: #0846A1;
+      color: #0846a1;
       letter-spacing: 0.7px;
       margin-bottom: 15px;
       position: relative;
@@ -460,7 +465,7 @@ body {
     p {
       font-weight: 400;
       font-size: 14px;
-      color: #0846A1;
+      color: #0846a1;
       letter-spacing: 0.88px;
       line-height: 26px;
       position: relative;
@@ -474,7 +479,7 @@ body {
     .custom-separator {
       width: auto;
       height: 4px;
-      background: linear-gradient(#0846A1);
+      background: linear-gradient(#0846a1);
       border-radius: 100px;
       position: relative;
     }
@@ -486,7 +491,7 @@ body {
         width: 42px;
         height: 42px;
         font-style: normal;
-        background-image: linear-gradient(#0846A1);
+        background-image: linear-gradient(#0846a1);
         line-height: 42px;
         text-align: center;
         -webkit-border-radius: 100px;
@@ -495,13 +500,12 @@ body {
         color: #fff;
         padding-left: 3px;
       }
-      .kot1{
+      .kot1 {
         font-weight: 600;
-        font-size: 32px;        
+        font-size: 32px;
       }
     }
   }
-  
 
   .services-small-item1 {
     display: block;
