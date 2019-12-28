@@ -137,7 +137,8 @@ body {
   top: 0px;
   left: 0px;
   border-radius: 5px;
-  background-image: linear-gradient(134deg, #31a0dd 0%, #319fdc 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
+  background-image: linear-gradient(#0288d1);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   opacity: 0;
@@ -161,6 +162,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+#services .services-small-item:hover .icon-bg {
+  background: #fff;
+}
+
 #services .services-small-item:hover .services-title,
 #services .services-small-item:hover .services-price {
   color: #ffffff;
@@ -172,7 +177,23 @@ body {
 
 #services .services-small-item:hover .button i {
   background-image: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
-  color: #31a0dd !important;
+  color: #0288d1 !important;
+}
+
+#services .services-small-item:hover .wH {
+  background: url(../../../img/icons/wH-blue.svg) no-repeat center;
+}
+
+#services .services-small-item:hover .bH {
+  background: url(../../../img/icons/bH-blue.svg) no-repeat center;
+}
+
+#services .services-small-item:hover .vH {
+  background: url(../../../img/icons/vH-blue.svg) no-repeat center;
+}
+
+#services .services-small-item:hover .dH {
+  background: url(../../../img/icons/dH-blue.svg) no-repeat center;
 }
 
 #services .services-small-item:hover .custom-separator {
@@ -201,8 +222,8 @@ body {
   width: 100%;
   top: 22px;
   z-index: 2;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#31a0dd));
-  background-image: linear-gradient(#31a0dd);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
+  background-image: linear-gradient(#0288d1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -217,7 +238,7 @@ body {
 #services .services-small-item .services-title {
   font-weight: 400;
   font-size: 16px;
-  color: #31a0dd;
+  color: #0288d1;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -229,7 +250,7 @@ body {
 #services .services-small-item .services-price {
   font-weight: 500;
   font-size: 30px;
-  color: #42a5d5;
+  color: #0288d1;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -241,7 +262,7 @@ body {
 #services .services-small-item p {
   font-weight: 400;
   font-size: 14px;
-  color: #42a5d5;
+  color: #0288d1;
   letter-spacing: 0.88px;
   line-height: 26px;
   position: relative;
@@ -251,10 +272,43 @@ body {
   margin-bottom: 30px;
 }
 
+#services .services-small-item .icon-bg {
+  display: inline-block;
+  margin: auto;
+  width: 75px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
+  background-image: linear-gradient(#0288d1);
+  border-radius: 3px;
+  position: relative;
+  background-size: cover;
+}
+
+#services .services-small-item .icon1 {
+  display: block;
+  height: 75px;
+}
+
+#services .services-small-item .wH {
+  background: url(../../../img/icons/wH-white.svg) no-repeat center;
+}
+
+#services .services-small-item .bH {
+  background: url(../../../img/icons/bH-white.svg) no-repeat center;
+}
+
+#services .services-small-item .vH {
+  background: url(../../../img/icons/vH-white.svg) no-repeat center;
+}
+
+#services .services-small-item .dH {
+  background: url(../../../img/icons/dH-white.svg) no-repeat center;
+}
+
 #services .services-small-item .custom-separator {
   width: auto;
   height: 4px;
-  background: linear-gradient(135deg, #31a0dd 0%, #42a5d5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
+  background: linear-gradient(#0288d1);
   border-radius: 100px;
   position: relative;
 }
@@ -268,7 +322,8 @@ body {
   width: 42px;
   height: 42px;
   font-style: normal;
-  background-image: linear-gradient(135deg, #319fdc 0%, #31a0dd 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
+  background-image: linear-gradient(#0288d1);
   line-height: 42px;
   text-align: center;
   border-radius: 4px;

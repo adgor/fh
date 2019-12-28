@@ -164,7 +164,7 @@ body {
       top: 0px;
       left: 0px;
       border-radius: 5px;
-      background-image: linear-gradient(134deg, $main-blue 0%, $blue2 100%);
+      background-image: linear-gradient($blue);
       -webkit-transition: all 0.3s ease 0s;
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
@@ -185,6 +185,9 @@ body {
           -webkit-text-fill-color: transparent;
         }
       }
+      .icon-bg {
+        background: #fff;
+      }
       .services-title,
       .services-price {
         color: #ffffff;
@@ -199,9 +202,26 @@ body {
             #fff 0%,
             #fff 100%
           ) !important;
-          color: $main-blue !important;
+          color: $blue !important;
         }
       }
+
+      .wH {
+        background: url(../../../img/icons/wH-blue.svg) no-repeat center;
+      }
+
+      .bH {
+        background: url(../../../img/icons/bH-blue.svg) no-repeat center;
+      }
+
+      .vH {
+        background: url(../../../img/icons/vH-blue.svg) no-repeat center;
+      }
+
+      .dH {
+        background: url(../../../img/icons/dH-blue.svg) no-repeat center;
+      }
+
       .custom-separator {
         background: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
       }
@@ -233,7 +253,7 @@ body {
         top: 22px;
         z-index: 2;
         // font-size: 28px;
-        background-image: linear-gradient($main-blue);
+        background-image: linear-gradient($blue);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-transition: all 0.3s ease 0s;
@@ -251,7 +271,7 @@ body {
     .services-title {
       font-weight: 400;
       font-size: 16px;
-      color: $main-blue;
+      color: $blue;
       letter-spacing: 0.7px;
       margin-bottom: 15px;
       position: relative;
@@ -264,7 +284,7 @@ body {
     .services-price {
       font-weight: 500;
       font-size: 30px;
-      color: $blue3;
+      color: $blue;
       letter-spacing: 0.7px;
       margin-bottom: 15px;
       position: relative;
@@ -277,7 +297,7 @@ body {
     p {
       font-weight: 400;
       font-size: 14px;
-      color: $blue3;
+      color: $blue;
       letter-spacing: 0.88px;
       line-height: 26px;
       position: relative;
@@ -288,10 +308,48 @@ body {
       transition: all 0.3s ease 0s;
       margin-bottom: 30px;
     }
+
+    .icon-bg {
+      display: inline-block;
+      margin: auto;
+      width: 75px;
+      // height: 82px;
+      background-image: linear-gradient(#0288d1);
+      border-radius: 3px;
+      position: relative;
+      background-size: cover;
+      // text-align: center;
+      // display: block;
+    }
+
+    .icon1 {
+      display: block;
+      // width: 70px;
+      height: 75px;
+      // background-size: cover;
+      // text-align: center;
+    }
+
+    .wH {
+      background: url(../../../img/icons/wH-white.svg) no-repeat center;
+    }
+
+    .bH {
+      background: url(../../../img/icons/bH-white.svg) no-repeat center;
+    }
+
+    .vH {
+      background: url(../../../img/icons/vH-white.svg) no-repeat center;
+    }
+
+    .dH {
+      background: url(../../../img/icons/dH-white.svg) no-repeat center;
+    }
+
     .custom-separator {
       width: auto;
       height: 4px;
-      background: linear-gradient(135deg, $main-blue 0%, $blue3 100%);
+      background: linear-gradient($blue);
       border-radius: 100px;
       position: relative;
     }
@@ -303,7 +361,7 @@ body {
         width: 42px;
         height: 42px;
         font-style: normal;
-        background-image: linear-gradient(135deg, $blue2 0%, $main-blue 100%);
+        background-image: linear-gradient($blue);
         line-height: 42px;
         text-align: center;
         -webkit-border-radius: 100px;
