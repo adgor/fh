@@ -1216,90 +1216,29 @@ body {
 }
 
 // ================= Domain/Help Section =================
-#domain,
-#help {
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)),
-    url(../../../img/gradient.jpg) no-repeat center top fixed;
-  background-size: cover;
-
-  .overlay {
-    background: linear-gradient(
-      rgba(255, 255, 255, 100) 0%,
-      rgba(255, 255, 255, 0.2) 95%
-    );
-    height: 100%;
-    width: 100%;
-  }
+#domain {
+  background: $blue1;
 
   h1 {
-    color: $main-blue;
+    color: #fff;
   }
 
   .form-control {
-    background-color: transparent;
-    border: 1px solid #dddddd;
-    border-radius: 0;
-    color: #888;
-    font-size: 11px;
-    font-weight: 600;
-    height: 50px;
+    border-radius: 4px;
     text-align: center;
-    width: 70%;
-    background: #fff;
+    background: transparent;
 
     &:focus {
-      border-color: $main-green;
+      border-color: $blue;
       box-shadow: none;
       outline: 0 none;
     }
   }
 
   .btn {
-    background: $main-green;
-    border: 0;
-    border-radius: 0;
-    height: 50px;
-    width: 30%;
+    background: $blue;
+    border-radius: 4px;
     transition: 0.3s;
-
-    &:hover {
-      background: $green2;
-    }
-    .fa {
-      padding-right: 10px;
-    }
-  }
-  ul {
-    display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 0;
-  }
-
-  ul li {
-    background: $main-green;
-    border-radius: 50px;
-    float: left;
-    height: 35px;
-    line-height: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 35px;
-    transition: 0.3s;
-    &:hover {
-      background: $green2;
-    }
-
-    .fa {
-      color: #fff;
-    }
-  }
-
-  .icon i {
-    padding-top: 40px;
-    color: $main-green;
-    font-size: 56px;
-    line-height: 1;
-    transition: 0.5s;
   }
 }
 
@@ -1457,6 +1396,93 @@ body {
     i::before {
       content: "\f2c7" !important;
     }
+  }
+}
+
+// ================= Domain/Help Section =================
+#help {
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)),
+    url(../../../img/gradient.jpg) no-repeat center top fixed;
+  background-size: cover;
+
+  .overlay {
+    background: linear-gradient(
+      rgba(255, 255, 255, 100) 0%,
+      rgba(255, 255, 255, 0.2) 95%
+    );
+    height: 100%;
+    width: 100%;
+  }
+
+  h1 {
+    color: $main-blue;
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    color: #888;
+    font-size: 11px;
+    font-weight: 600;
+    height: 50px;
+    text-align: center;
+    width: 70%;
+    background: #fff;
+
+    &:focus {
+      border-color: $main-green;
+      box-shadow: none;
+      outline: 0 none;
+    }
+  }
+
+  .btn {
+    background: $main-green;
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+    width: 30%;
+    transition: 0.3s;
+
+    &:hover {
+      background: $green2;
+    }
+    .fa {
+      padding-right: 10px;
+    }
+  }
+  ul {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  ul li {
+    background: $main-green;
+    border-radius: 50px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
+    transition: 0.3s;
+    &:hover {
+      background: $green2;
+    }
+
+    .fa {
+      color: #fff;
+    }
+  }
+
+  .icon i {
+    padding-top: 40px;
+    color: $main-green;
+    font-size: 56px;
+    line-height: 1;
+    transition: 0.5s;
   }
 }
 

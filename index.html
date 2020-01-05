@@ -34,7 +34,7 @@
     <div class="container clearfix ">
       <ul class="nav float-left">
         <li class="nav-item">
-          <a class="nav-link pl-0" id='promotion' href="#"><i class="fa fa-tags pr-2"></i> 12grr</a>
+          <a class="nav-link pl-0" id='promotion' href="#"><i class="fa fa-tags pr-2"></i> </a>
         </li>
       </ul>
       <ul class="nav float-right">
@@ -323,23 +323,24 @@
 
   <!-- End pricing table area -->
 
-  <!--========================== Domain Section ============================-->
+  <!--========================== Domain Section v1.1 ============================-->
   <section id="domain" class="domain text-center">
-    <div class="overlay padd-section">
+    <div class="padd-section">
       <div class="container">
         <h1 class="pb-5">Choose a Domain</h1>
         <div class="row justify-content-center">
           <div class="col-md-9 col-lg-6">
-            <form class="form-inline" method="GET" action="#">
+            <form class="form-inline">
+              <input class="form-control" type="search" placeholder="example.com" aria-label="Search">
+              <button class="btn btn-outline" type="submit">Search</button>
+            </form>
+            <form class="form-inline" method="post"
+              action="https://www.fidahost.com/clients/cart.php?a=add&domain=register">
               <input type="search" class="form-control " placeholder="Find Your Domain Names" name="search">
-              <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>Search</button>
+              <button type="submit" class="btn btn-default">Search</button>
             </form>
           </div>
         </div>
-        <ul class="list-unstyled">
-          <h2> <i class="fa fa-hdd-o"></i> 500 MB <small class="text-muted">space</small></h2>
-          <h2> <i class="fa fa-hdd-o"></i> 5 GB <small class="text-muted">bandwidth</small></h2>
-        </ul>
       </div>
     </div>
   </section>

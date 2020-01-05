@@ -1116,108 +1116,32 @@ body {
   color: #68ab35;
 }
 
-#domain,
-#help {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 200, 205, 0.65)), to(rgba(29, 205, 89, 0.2))), url(../../../img/gradient.jpg) no-repeat center top fixed;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../../../img/gradient.jpg) no-repeat center top fixed;
-  background-size: cover;
+#domain {
+  background: #03a9f4;
 }
 
-#domain .overlay,
-#help .overlay {
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(95%, rgba(255, 255, 255, 0.2)));
-  background: linear-gradient(white 0%, rgba(255, 255, 255, 0.2) 95%);
-  height: 100%;
-  width: 100%;
+#domain h1 {
+  color: #fff;
 }
 
-#domain h1,
-#help h1 {
-  color: #31a0dd;
-}
-
-#domain .form-control,
-#help .form-control {
-  background-color: transparent;
-  border: 1px solid #dddddd;
-  border-radius: 0;
-  color: #888;
-  font-size: 11px;
-  font-weight: 600;
-  height: 50px;
+#domain .form-control {
+  border-radius: 4px;
   text-align: center;
-  width: 70%;
-  background: #fff;
+  background: transparent;
 }
 
-#domain .form-control:focus,
-#help .form-control:focus {
-  border-color: #68ab35;
+#domain .form-control:focus {
+  border-color: #0288d1;
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0 none;
 }
 
-#domain .btn,
-#help .btn {
-  background: #68ab35;
-  border: 0;
-  border-radius: 0;
-  height: 50px;
-  width: 30%;
+#domain .btn {
+  background: #0288d1;
+  border-radius: 4px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-}
-
-#domain .btn:hover,
-#help .btn:hover {
-  background: #98d060;
-}
-
-#domain .btn .fa,
-#help .btn .fa {
-  padding-right: 10px;
-}
-
-#domain ul,
-#help ul {
-  display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 0;
-}
-
-#domain ul li,
-#help ul li {
-  background: #68ab35;
-  border-radius: 50px;
-  float: left;
-  height: 35px;
-  line-height: 35px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 35px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#domain ul li:hover,
-#help ul li:hover {
-  background: #98d060;
-}
-
-#domain ul li .fa,
-#help ul li .fa {
-  color: #fff;
-}
-
-#domain .icon i,
-#help .icon i {
-  padding-top: 40px;
-  color: #68ab35;
-  font-size: 56px;
-  line-height: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 #why-us {
@@ -1380,6 +1304,97 @@ body {
 
 #faq #faq-list i::before {
   content: "\f2c7" !important;
+}
+
+#help {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 200, 205, 0.65)), to(rgba(29, 205, 89, 0.2))), url(../../../img/gradient.jpg) no-repeat center top fixed;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../../../img/gradient.jpg) no-repeat center top fixed;
+  background-size: cover;
+}
+
+#help .overlay {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(95%, rgba(255, 255, 255, 0.2)));
+  background: linear-gradient(white 0%, rgba(255, 255, 255, 0.2) 95%);
+  height: 100%;
+  width: 100%;
+}
+
+#help h1 {
+  color: #31a0dd;
+}
+
+#help .form-control {
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  border-radius: 0;
+  color: #888;
+  font-size: 11px;
+  font-weight: 600;
+  height: 50px;
+  text-align: center;
+  width: 70%;
+  background: #fff;
+}
+
+#help .form-control:focus {
+  border-color: #68ab35;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0 none;
+}
+
+#help .btn {
+  background: #68ab35;
+  border: 0;
+  border-radius: 0;
+  height: 50px;
+  width: 30%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#help .btn:hover {
+  background: #98d060;
+}
+
+#help .btn .fa {
+  padding-right: 10px;
+}
+
+#help ul {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+#help ul li {
+  background: #68ab35;
+  border-radius: 50px;
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 35px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#help ul li:hover {
+  background: #98d060;
+}
+
+#help ul li .fa {
+  color: #fff;
+}
+
+#help .icon i {
+  padding-top: 40px;
+  color: #68ab35;
+  font-size: 56px;
+  line-height: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 @media (max-width: 992px) {
