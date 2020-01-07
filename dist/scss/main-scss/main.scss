@@ -1252,6 +1252,8 @@ body {
 // =================  Feature/domain Section =================
 #feature {
   h2 {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
     color: #6f8ba4;
     text-align: start;
