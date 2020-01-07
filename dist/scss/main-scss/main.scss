@@ -1265,6 +1265,123 @@ body {
   }
 }
 
+// ================= Transfer/Domain Section =================
+#transfer {
+  color: #fff;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(
+      135deg,
+      rgba(15, 192, 219, 1) 0%,
+      rgba(135, 111, 231, 1) 100%
+    )
+    repeat scroll 0 0;
+  height: 100%;
+  width: 100%;
+
+  p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.88px;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      .button {
+        i {
+          background-image: linear-gradient(135deg, #fff 0%, #fff 100%);
+          color: #2b708b;
+        }
+      }
+    }
+    .button {
+      display: inline;
+      position: relative;
+      z-index: 2;
+      i {
+        width: 42px;
+        height: 42px;
+        font-style: normal;
+        background-image: linear-gradient($blue);
+        line-height: 42px;
+        text-align: center;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 4px;
+        color: #fff;
+        padding-left: 3px;
+      }
+    }
+  }
+}
+
+// ================= Why Us Section =================
+#why-us {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+
+  .feature-block {
+    background: #fff none repeat scroll 0 0;
+    padding: 30px 20px;
+    transition: all 0.5s ease-in-out 0s;
+    &:hover {
+      box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+      transition: all 0.5s ease-in-out 0s;
+    }
+
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #505050;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: 0.3s;
+
+      &:hover {
+        color: $green2;
+      }
+    }
+  }
+
+  .icon i {
+    color: $main-green;
+    font-size: 36px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+
+  .section-title {
+    margin-bottom: 80px;
+
+    h2 {
+      font-size: 45px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    }
+    .separator {
+      margin: 0;
+    }
+  }
+
+  h1 {
+    color: $main-blue;
+  }
+}
+
 // ================= Free Offer Section =================
 #free-offer {
   display: inline-block;

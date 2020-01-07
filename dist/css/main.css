@@ -1167,6 +1167,121 @@ body {
   text-align: start;
 }
 
+#transfer {
+  color: #fff;
+  background: rgba(0, 0, 0, 0) linear-gradient(135deg, #0fc0db 0%, #876fe7 100%) repeat scroll 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+#transfer p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.88px;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+#transfer a {
+  text-decoration: none;
+}
+
+#transfer a:hover .button i {
+  background-image: linear-gradient(135deg, #fff 0%, #fff 100%);
+  color: #2b708b;
+}
+
+#transfer a .button {
+  display: inline;
+  position: relative;
+  z-index: 2;
+}
+
+#transfer a .button i {
+  width: 42px;
+  height: 42px;
+  font-style: normal;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
+  background-image: linear-gradient(#0288d1);
+  line-height: 42px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  padding-left: 3px;
+}
+
+#why-us {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+#why-us .feature-block {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px 20px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#why-us .feature-block:hover {
+  -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#why-us .feature-block h4 {
+  margin-bottom: 20px;
+}
+
+#why-us .feature-block p {
+  margin-bottom: 20px;
+}
+
+#why-us .feature-block a {
+  color: #505050;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#why-us .feature-block a:hover {
+  color: #98d060;
+}
+
+#why-us .icon i {
+  color: #68ab35;
+  font-size: 36px;
+  line-height: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#why-us .section-title {
+  margin-bottom: 80px;
+}
+
+#why-us .section-title h2 {
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#why-us .section-title .separator {
+  margin: 0;
+}
+
+#why-us h1 {
+  color: #31a0dd;
+}
+
 #free-offer {
   display: inline-block;
   height: 100%;
