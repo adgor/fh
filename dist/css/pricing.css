@@ -5,9 +5,4 @@ body {
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
-
-.padd-section {
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
 /*# sourceMappingURL=pricing.css.map */

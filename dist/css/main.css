@@ -15,6 +15,11 @@ body {
   padding-top: 80px;
 }
 
+.padd-section1 {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
 .section-header2 h3 {
   font-size: 32px;
   color: #111;
