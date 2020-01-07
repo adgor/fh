@@ -314,7 +314,7 @@ body {
       margin: auto;
       width: 75px;
       // height: 82px;
-      background-image: linear-gradient(#0288d1);
+      background-image: linear-gradient($blue);
       border-radius: 3px;
       position: relative;
       background-size: cover;
@@ -1215,18 +1215,19 @@ body {
   }
 }
 
-// ================= Domain/Help Section =================
+// ================= Domain Section =================
 #domain {
   background: $blue1;
+  display: block;
 
-  h1 {
+  h2 {
     color: #fff;
   }
 
   .form-control {
     border-radius: 4px;
-    text-align: center;
-    background: transparent;
+    // text-align: center;
+    background: #fff;
 
     &:focus {
       border-color: $blue;
@@ -1238,51 +1239,22 @@ body {
   .btn {
     background: $blue;
     border-radius: 4px;
+    color: #fff;
     transition: 0.3s;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 }
 
-// =================  why-us Section =================
-#why-us {
-  background: #fff;
-  background-size: cover;
-  padding: 60px 0 40px 0;
-
-  .box {
-    margin-bottom: 30px;
-  }
-
-  .icon {
-    float: left;
-
-    i {
-      color: $main-green;
-      font-size: 36px;
-      line-height: 1;
-      transition: 0.5s;
-    }
-  }
-
-  .title {
-    margin-left: 60px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-
-    a {
-      color: #111;
-    }
-  }
-
-  .box:hover .title a {
-    color: $main-green;
-  }
-
-  .description {
-    font-size: 14px;
-    margin-left: 60px;
-    line-height: 24px;
-    margin-bottom: 0;
+// =================  Feature/domain Section =================
+#feature {
+  h2 {
+    font-size: 1.5rem;
+    color: #6f8ba4;
+    text-align: start;
   }
 }
 

@@ -1118,16 +1118,16 @@ body {
 
 #domain {
   background: #03a9f4;
+  display: block;
 }
 
-#domain h1 {
+#domain h2 {
   color: #fff;
 }
 
 #domain .form-control {
   border-radius: 4px;
-  text-align: center;
-  background: transparent;
+  background: #fff;
 }
 
 #domain .form-control:focus {
@@ -1140,52 +1140,20 @@ body {
 #domain .btn {
   background: #0288d1;
   border-radius: 4px;
+  color: #fff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-#why-us {
-  background: #fff;
-  background-size: cover;
-  padding: 60px 0 40px 0;
+#domain a {
+  text-decoration: none;
+  color: #fff;
 }
 
-#why-us .box {
-  margin-bottom: 30px;
-}
-
-#why-us .icon {
-  float: left;
-}
-
-#why-us .icon i {
-  color: #68ab35;
-  font-size: 36px;
-  line-height: 1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-#why-us .title {
-  margin-left: 60px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-#why-us .title a {
-  color: #111;
-}
-
-#why-us .box:hover .title a {
-  color: #68ab35;
-}
-
-#why-us .description {
-  font-size: 14px;
-  margin-left: 60px;
-  line-height: 24px;
-  margin-bottom: 0;
+#feature h2 {
+  font-size: 1.5rem;
+  color: #6f8ba4;
+  text-align: start;
 }
 
 #free-offer {
