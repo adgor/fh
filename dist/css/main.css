@@ -11,13 +11,22 @@ body {
 }
 
 .padd-section {
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .padd-section1 {
   padding-bottom: 20px;
   padding-top: 40px;
+}
+
+.section-title {
+  font-weight: 400;
+  font-size: 28px;
+  color: #3b566e;
+  letter-spacing: 1.1px;
+  line-height: 38px;
+  margin-bottom: 20px;
 }
 
 .section-header2 h3 {
@@ -590,6 +599,88 @@ body {
   padding-left: 3px;
 }
 
+/*
+* ----------------------------------------------------------------------------------------
+* 04.START Why Us
+* ----------------------------------------------------------------------------------------
+*/
+.about_single {
+  padding: 13px 13px 20px;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.about_single i {
+  border: 1px solid #e8e8e9;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 0 7px transparent;
+          box-shadow: 0 0 0 7px transparent;
+  color: #3b566e;
+  font-size: 26px;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 15px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  width: 80px;
+}
+
+.about_single:hover i {
+  color: #fff;
+  -webkit-box-shadow: 0 0 0 0px #0288d1;
+          box-shadow: 0 0 0 0px #0288d1;
+  background: #0288d1;
+  border: 1px solid #0288d1;
+}
+
+.about_single:hover h4 {
+  color: #0288d1;
+}
+
+.about_single p {
+  color: #3b566e;
+}
+
+.about_single span {
+  background: #0288d1 none repeat scroll 0 0;
+  display: block;
+  height: 2px;
+  margin: 15px auto 0;
+  width: 54px;
+  margin-bottom: 15px;
+}
+
+.about_single h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #3b566e;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+@media only screen and (max-width: 768px) {
+  .about_single {
+    margin-bottom: 20px;
+  }
+  .about_single h4 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about_single {
+    margin-bottom: 20px;
+  }
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 04.END Why Us
+* ----------------------------------------------------------------------------------------
+*/
 #why-us {
   display: inline-block;
   height: 100%;
