@@ -568,7 +568,9 @@ body {
   }
 
   .form-control {
-    border-radius: 4px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     // text-align: center;
     background: #fff;
 
@@ -581,9 +583,22 @@ body {
 
   .btn {
     background: $blue;
-    border-radius: 4px;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     color: #fff;
-    transition: 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: baseline;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
   }
 
   a {
