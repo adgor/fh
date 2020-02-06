@@ -20,6 +20,12 @@ body {
   padding-top: 40px;
 }
 
+.container-m {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section-title {
   font-weight: 600;
   font-size: 28px;
@@ -564,7 +570,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #6f8ba4;
   text-align: start;
 }

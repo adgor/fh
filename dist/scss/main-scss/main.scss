@@ -44,6 +44,13 @@ body {
   padding-top: 40px;
 }
 
+.container-m{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 // ================== Section Title ==================
 .section-title {
   font-weight: 600;
@@ -613,7 +620,7 @@ body {
   h2 {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #6f8ba4;
     text-align: start;
   }
