@@ -1,5 +1,108 @@
+/* Color Theme Swatches in Hex */
 body {
+  margin: 0;
   font-family: Helvetica;
+  font-size: 1rem;
+  font: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.border-radius-round {
+  border-radius: 100px !important;
+}
+
+.p-1 {
+  padding: 0.25rem !important;
+}
+
+.pt-10 {
+  padding-top: 10px !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+
+.pl-10 {
+  padding-left: 10px !important;
+}
+
+.pr-10 {
+  padding-right: 10px !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mh-0 {
+  min-height: 0 !important;
+}
+
+.mh-50-md {
+  min-height: 50px !important;
+}
+
+.mr-5,
+.mx-5 {
+  margin-right: 3rem !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.mw-350 {
+  max-width: 350px;
+}
+
+.m-top-0 {
+  margin-top: 0 !important;
+}
+
+.m-bottom-4 {
+  margin-bottom: 2rem !important;
+}
+
+.p-y-1 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .kot {
@@ -8,6 +111,14 @@ body {
 
 .dropdown:hover > .dropdown-menu {
   display: block;
+}
+
+.text-content-grey {
+  color: #999;
+}
+
+a.text-content-grey:hover {
+  color: #666;
 }
 
 .padd-section {
@@ -33,6 +144,10 @@ body {
   letter-spacing: 1.1px;
   line-height: 38px;
   margin-bottom: 20px;
+}
+
+.center-heading {
+  text-align: center;
 }
 
 .section-header2 h3 {
@@ -1007,5 +1122,296 @@ body {
   #domain .btn {
     width: 100%;
   }
+}
+
+/*--------------------------------------------------------------
+# pricing-web-hosting
+--------------------------------------------------------------*/
+.pricing-web-hosting .row {
+  padding-top: 40px;
+}
+
+.pricing-web-hosting .box {
+  padding: 40px 40px;
+  -webkit-box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+          box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  background: #fff;
+  height: 100%;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+
+.pricing-web-hosting .box .regular-price {
+  font-size: 14px;
+  font-style: normal;
+  margin-right: 5px !important;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.pricing-web-hosting .box .price-block {
+  font-size: 50px;
+  color: #011640;
+}
+
+.pricing-web-hosting .box .price-block-wrapper {
+  font-size: 0.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.pricing-web-hosting .box .price-block__currency {
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 0.2em;
+}
+
+.pricing-web-hosting .box .price-block__bigno {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+.pricing-web-hosting .box .price-block__right-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.pricing-web-hosting .box .price-block-right-holder__cents {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.pricing-web-hosting .box .price-block-right-holder__unit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pricing-web-hosting .box .price-block-right-holder-unit__unit {
+  font-size: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin: 0.3em;
+}
+
+.pricing-web-hosting .box .h-button {
+  background-color: #1f5aa6;
+  border-radius: 3px;
+  padding: 15px 20px;
+  color: #fff;
+  word-break: break-word;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #1f5aa6;
+  -webkit-appearance: unset;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.pricing-web-hosting .box .h-button:hover {
+  background-color: #17437b;
+  border: 1px solid #1f5aa6;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.pricing-web-hosting .box .h-button-featured {
+  background-color: #17bf52;
+  border: 1px solid #17bf52;
+}
+
+.pricing-web-hosting .box .h-button-featured:hover {
+  background-color: #12913e;
+  border: 1px solid #17bf52;
+}
+
+.pricing-web-hosting .box button {
+  border-radius: 0;
+}
+
+.pricing-web-hosting .box .m-auto {
+  margin: auto !important;
+}
+
+.pricing-web-hosting h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #37517e;
+}
+
+.pricing-web-hosting h4 {
+  font-size: 48px;
+  color: #37517e;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 25px;
+}
+
+.pricing-web-hosting h4 sup {
+  font-size: 28px;
+}
+
+.pricing-web-hosting h4 span {
+  color: #47b2e4;
+  font-size: 18px;
+  display: block;
+}
+
+.pricing-web-hosting .kot-save {
+  background-color: #78a8e6;
+}
+
+.pricing-web-hosting .kot-save-featured {
+  background-color: #7ff0a7;
+}
+
+.pricing-web-hosting .List {
+  color: #011640;
+  text-align: left;
+  font-size: 1rem;
+  line-height: calc(1em + 8px);
+}
+
+.pricing-web-hosting .List--unset {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-web-hosting .List--unset li {
+  margin: 0;
+}
+
+.pricing-web-hosting .m-left-1 {
+  margin-left: 0.5rem !important;
+}
+
+.pricing-web-hosting .t-1 {
+  font-size: 1rem !important;
+  line-height: 1.5rem;
+}
+
+.pricing-web-hosting .buy-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 50px;
+  color: #47b2e4;
+  -webkit-transition: none;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid #47b2e4;
+}
+
+.pricing-web-hosting .buy-btn:hover {
+  background: #47b2e4;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .pricing-web-hosting .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing-web-hosting .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .pricing-web-hosting .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+/*--------------------------------------------------------------
+# hosting-features
+--------------------------------------------------------------*/
+.hosting-features {
+  display: block;
+  -webkit-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.hosting-features .icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background: #f6f6f6;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.hosting-features .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.hosting-features .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.hosting-features .icon-box h3 a {
+  color: #222222;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+.hosting-features .icon-box h3 a:hover {
+  color: #1f5aa6;
+}
+
+.hosting-features .icon-box:hover {
+  background: #e4edfa;
 }
 /*# sourceMappingURL=main.css.map */

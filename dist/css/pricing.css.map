@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAIA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,SAAS;CACvB;;AAED,AAAA,SAAS,AAAA,MAAM,GAAG,cAAc,CAAC;EAC/B,OAAO,EAAE,KAAK;CACf",
+    "mappings": "ACUA,iCAAiC;ADNjC,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,SAAS;CACvB;;AAED,AAAA,SAAS,AAAA,MAAM,GAAG,cAAc,CAAC;EAC/B,OAAO,EAAE,KAAK;CACf",
     "sources": [
         "../scss/main-scss/pricing.scss",
         "../scss/main-scss/_variables.scss",

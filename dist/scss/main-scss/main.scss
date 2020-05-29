@@ -22,7 +22,97 @@
 
 // ================= Golobal =================
 body {
+  margin: 0;
   font-family: Helvetica;
+  font-size: 1rem;
+  font: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.fw-300 {
+  font-weight: 300 !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.border-radius-round {
+  border-radius: 100px !important;
+}
+.p-1 {
+  padding: 0.25rem !important;
+}
+
+.pt-10 {
+  padding-top: 10px !important;
+}
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+.pl-10 {
+  padding-left: 10px !important;
+}
+.pr-10 {
+  padding-right: 10px !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mh-0 {
+  min-height: 0 !important;
+}
+
+.mh-50-md {
+  min-height: 50px !important;
+}
+
+.mr-5,
+.mx-5 {
+  margin-right: 3rem !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.mw-350 {
+  max-width: 350px;
+}
+.m-top-0 {
+  margin-top: 0 !important;
+}
+.m-bottom-4 {
+  margin-bottom: 2rem !important;
+}
+
+.p-y-1 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .kot {
@@ -31,6 +121,13 @@ body {
 
 .dropdown:hover > .dropdown-menu {
   display: block;
+}
+
+.text-content-grey {
+  color: #999;
+}
+a.text-content-grey:hover {
+  color: #666;
 }
 
 // ================= Sections =================
@@ -44,11 +141,10 @@ body {
   padding-top: 40px;
 }
 
-.container-m{
+.container-m {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 // ================== Section Title ==================
@@ -62,6 +158,10 @@ body {
 }
 
 //  ================= Sections Header =================
+
+.center-heading {
+  text-align: center;
+}
 .section-header2 {
   h3 {
     font-size: 32px;
@@ -605,7 +705,7 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;    
+    user-select: none;
   }
 
   a {
@@ -1050,5 +1150,308 @@ body {
   }
   #domain .btn {
     width: 100%;
+  }
+}
+
+// =========================== Shared Website hosting Section ===================
+/*--------------------------------------------------------------
+# pricing-web-hosting
+--------------------------------------------------------------*/
+
+.pricing-web-hosting {
+  .row {
+    padding-top: 40px;
+  }
+  .box {
+    padding: 40px 40px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    background: #fff;
+    height: 100%;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+    .regular-price {
+      font-size: 14px;
+      font-style: normal;
+      margin-right: 5px !important;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+    }
+    .price-block {
+      font-size: 50px;
+      color: $wh-1;
+    }
+    .price-block-wrapper {
+      font-size: 0.7em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+    .price-block__currency {
+      font-size: 1em;
+      font-weight: 700;
+      margin-top: 0.2em;
+    }
+    .price-block__bigno {
+      font-size: 3em;
+      font-weight: 700;
+      line-height: 0.8em;
+    }
+    .price-block__right-holder {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+    }
+    .price-block-right-holder__cents {
+      font-size: 0.8em;
+      font-weight: 700;
+    }
+    .price-block-right-holder__unit {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .price-block-right-holder-unit__unit {
+      font-size: 0.5em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      margin: 0.3em;
+    }
+    .h-button {
+      background-color: $wh-2;
+      border-radius: 3px;
+      padding: 15px 20px;
+      color: #fff;
+      word-break: break-word;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid $wh-2;
+      -webkit-appearance: unset;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: darken($wh-2, $amount: 10%);
+        border: 1px solid $wh-2;
+        color: #fff;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    .h-button-featured {
+      background-color: $wh-4;
+      border: 1px solid $wh-4;
+      &:hover {
+        background-color: darken($wh-4, $amount: 10%);
+        border: 1px solid $wh-4;
+      }
+    }
+    button {
+      border-radius: 0;
+    }
+    .m-auto {
+      margin: auto !important;
+    }
+  }
+  h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #37517e;
+  }
+  h4 {
+    font-size: 48px;
+    color: #37517e;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 25px;
+    sup {
+      font-size: 28px;
+    }
+    span {
+      color: #47b2e4;
+      font-size: 18px;
+      display: block;
+    }
+  }
+  .kot-save {
+    background-color: lighten($wh-2, $amount: 30%);
+  }
+  .kot-save-featured {
+    background-color: lighten($wh-4, $amount: 30%);
+  }
+  // ul {
+  //   padding: 20px 0;
+  //   list-style: none;
+  //   color: #999;
+  //   text-align: left;
+  //   line-height: 20px;
+  //   li {
+  //     padding: 10px 0 10px 30px;
+  //     position: relative;
+  //   }
+  //   i {
+  //     color: #28a745;
+  //     font-size: 24px;
+  //     position: absolute;
+  //     left: 0;
+  //     top: 6px;
+  //   }
+  //   .na {
+  //     color: #ccc;
+  //     i {
+  //       color: #ccc;
+  //     }
+  //     span {
+  //       text-decoration: line-through;
+  //     }
+  //   }
+  // }
+  .List {
+    color: $wh-1;
+    text-align: left;
+    font-size: 1rem;
+    line-height: calc(1em + 8px);
+  }
+  .List--unset {
+    list-style: none;
+    padding: 0;
+    li {
+      margin: 0;
+    }
+  }
+  .m-left-1 {
+    margin-left: 0.5rem !important;
+  }
+  .t-1 {
+    font-size: 1rem !important;
+    line-height: 1.5rem;
+  }
+
+  .buy-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    color: #47b2e4;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+    &:hover {
+      background: #47b2e4;
+      color: #fff;
+    }
+  }
+}
+
+// .pricing-web-hosting ul .na {
+//   color: #ccc;
+// }
+
+// .pricing-web-hosting ul .na i {
+//   color: #ccc;
+// }
+
+// .pricing-web-hosting ul .na span {
+//   text-decoration: line-through;
+// }
+
+// .pricing-web-hosting .featured {
+//   border-top-color: #47b2e4;
+// }
+
+// .pricing-web-hosting .featured .buy-btn {
+//   background: #47b2e4;
+//   color: #fff;
+// }
+
+// .pricing-web-hosting .featured .buy-btn:hover {
+//   background: #23a3df;
+// }
+
+@media (max-width: 992px) {
+  .pricing-web-hosting .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing-web-hosting .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .pricing-web-hosting .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+/*--------------------------------------------------------------
+# hosting-features
+--------------------------------------------------------------*/
+.hosting-features {
+  display: block;
+  box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+  .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #f6f6f6;
+    transition: ease-in-out 0.3s;
+    i {
+      font-size: 32px;
+      padding-right: 10px;
+      line-height: 1;
+    }
+    h3 {
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-size: 16px;
+      a {
+        color: #222222;
+        transition: ease-in-out 0.3s;
+        text-decoration: none;
+        &:hover {
+          color: $wh-2;
+        }
+      }
+    }
+    &:hover {
+      background: lighten($wh-2, $amount: 55);
+    }
   }
 }
