@@ -1679,15 +1679,30 @@ a.text-content-grey:hover {
       background: url(../../../img/icons/work/domain-transfer.svg) no-repeat
         center;
     }
+    .wm {
+      background: url(../../../img/icons/work/website-migration.svg) no-repeat
+        center;
+    }
+    .mbg {
+      background: url(../../../img/icons/work/like.svg) no-repeat center;
+    }
+    .prs {
+      background: url(../../../img/icons/work/proffesiona-support.svg) no-repeat
+        center;
+    }
 
     h3 {
+      font-family: "Open Sans", Arial, sans-serif;
       font-size: 22px;
       color: $wh-3;
-      font-weight: 700;
-      margin: 10px 0 10px 68px;
+      font-weight: 400;
+      line-height: 30px;
+      margin: 22px 0 11px 0;
+      text-align: center;
       a {
         color: $wh-3;
         text-decoration: underline;
+        text-decoration-style: solid;
         cursor: pointer;
         &:hover {
           color: lighten($wh-2, $amount: 30);
@@ -1697,9 +1712,78 @@ a.text-content-grey:hover {
     }
     p {
       padding: 0;
-      line-height: 24px;
+      // line-height: 24px;
       font-size: 14px;
-      margin: 0 0 0 68px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      margin: 0 0 11px 0;
+      text-align: center;
+    }
+  }
+}
+
+/* Need More Power Section
+--------------------------------*/
+#more-power {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b566e;
+    position: relative;
+    // z-index: 2;
+  }
+  .feature-block {
+    background: #f6f6f6 none repeat scroll 0 0;
+    padding: 30px 20px;
+    transition: all 0.5s ease-in-out 0s;
+    &:hover {
+      box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+      transition: all 0.5s ease-in-out 0s;
+      border-radius: 4px;
+    }
+    .img-fluid {
+      // height: 60px;
+      margin-bottom: 30px;
+      // width: 60px;
+    }
+    h4 {
+      font-weight: 700;
+      margin-bottom: 15px;
+
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+      line-height: 28px;
+      margin-bottom: 20px;
+      margin-top: 0px;
+      text-align: center;
+      visibility: visible;
+    }
+    a {
+      color: #505050;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: 0.3s;
+      &:hover {
+        color: $wh-3;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  #more-power {
+    .feature-block {
+      margin-bottom: 30px;
     }
   }
 }
