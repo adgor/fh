@@ -121,6 +121,10 @@ a.text-content-grey:hover {
   color: #666;
 }
 
+.text-white {
+  color: #fff !important;
+}
+
 .padd-section {
   padding-bottom: 60px;
   padding-top: 60px;
@@ -1401,7 +1405,7 @@ a.text-content-grey:hover {
 }
 
 .hosting-features .icon-box h3 a {
-  color: #222222;
+  color: #011640;
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
   text-decoration: none;
@@ -1413,5 +1417,252 @@ a.text-content-grey:hover {
 
 .hosting-features .icon-box:hover {
   background: #e4edfa;
+}
+
+/*--------------------------------------------------------------
+# optimized-hosting
+--------------------------------------------------------------*/
+.optimized-hosting .icon-box {
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.optimized-hosting .icon-box .icon {
+  margin-bottom: 10px;
+  display: block;
+  height: 80px;
+}
+
+.optimized-hosting .icon-box .wp {
+  background: url(../../../img/icons/optimized/Wordpress-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box .jm {
+  background: url(../../../img/icons/optimized/Joomla-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box .dp {
+  background: url(../../../img/icons/optimized/Drupal-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box .wc {
+  background: url(../../../img/icons/optimized/WooCommerce-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box .mg {
+  background: url(../../../img/icons/optimized/Magento-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box .ps {
+  background: url(../../../img/icons/optimized/Prestashop-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box .pb {
+  background: url(../../../img/icons/optimized/PhpBB-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box .mb {
+  background: url(../../../img/icons/optimized/MyBB-icon.svg) no-repeat center;
+}
+
+.optimized-hosting .icon-box h4 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.optimized-hosting .icon-box h4 a {
+  color: #011640;
+}
+
+.optimized-hosting .icon-box:hover h4 a {
+  text-decoration: none;
+  color: #1f5aa6;
+}
+
+.section-bg-blu {
+  background-color: #1f5aa6;
+}
+
+/*--------------------------------------------------------------
+# one-click
+--------------------------------------------------------------*/
+.one-click .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+          box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.one-click .icon-box::before {
+  content: "";
+  position: absolute;
+  background: #b9d2f2;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.one-click .icon-box:hover::before {
+  background: #1f5aa6;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.one-click .icon-box:hover .title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.one-click .icon-box:hover .description {
+  color: #fff;
+}
+
+.one-click .icon-box:hover .icon {
+  background-color: #fff;
+}
+
+.one-click .icon-box:hover .icon .pn {
+  background: url(../../../img/icons/oneclick/pointer-blue.svg) no-repeat center;
+}
+
+.one-click .icon-box:hover .icon .wz {
+  background: url(../../../img/icons/oneclick/wizard-blue.svg) no-repeat center;
+}
+
+.one-click .icon-box:hover .icon .tm {
+  background: url(../../../img/icons/oneclick/time-blue.svg) no-repeat center;
+}
+
+.one-click .icon {
+  margin: 0 auto 20px auto;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #1f5aa6;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.one-click .pn {
+  background: url(../../../img/icons/oneclick/pointer-white.svg) no-repeat center;
+}
+
+.one-click .wz {
+  background: url(../../../img/icons/oneclick/wizard-white.svg) no-repeat center;
+}
+
+.one-click .tm {
+  background: url(../../../img/icons/oneclick/time-white.svg) no-repeat center;
+}
+
+.one-click .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.one-click .title a {
+  color: #011640;
+}
+
+.one-click .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.section-bg-light-grey {
+  background-color: #f6f6f6;
+}
+
+/*--------------------------------------------------------------
+# work-with-us Us
+--------------------------------------------------------------*/
+.work-with-us .section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.work-with-us .section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b566e;
+  position: relative;
+  z-index: 2;
+}
+
+.work-with-us .section-title span {
+  position: absolute;
+  top: 30px;
+  color: #f6f6f6;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.work-with-us .info-box {
+  color: #5b5b5b;
+}
+
+.work-with-us .info-box .icon {
+  display: block;
+  text-align: center;
+  height: 50px;
+}
+
+.work-with-us .info-box .dt {
+  background: url(../../../img/icons/work/domain-transfer.svg) no-repeat center;
+}
+
+.work-with-us .info-box h3 {
+  font-size: 22px;
+  color: #63b0f2;
+  font-weight: 700;
+  margin: 10px 0 10px 68px;
+}
+
+.work-with-us .info-box h3 a {
+  color: #63b0f2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.work-with-us .info-box h3 a:hover {
+  color: #78a8e6;
+  -webkit-transition: color 0.3s cubic-bezier(0.96, 0.39, 0.1, 0.76);
+  transition: color 0.3s cubic-bezier(0.96, 0.39, 0.1, 0.76);
+}
+
+.work-with-us .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0 0 0 68px;
 }
 /*# sourceMappingURL=main.css.map */

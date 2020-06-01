@@ -130,6 +130,10 @@ a.text-content-grey:hover {
   color: #666;
 }
 
+.text-white {
+  color: #fff !important;
+}
+
 // ================= Sections =================
 .padd-section {
   padding-bottom: 60px;
@@ -1442,7 +1446,7 @@ a.text-content-grey:hover {
       line-height: 1;
       font-size: 16px;
       a {
-        color: #222222;
+        color: $wh-1;
         transition: ease-in-out 0.3s;
         text-decoration: none;
         &:hover {
@@ -1452,6 +1456,250 @@ a.text-content-grey:hover {
     }
     &:hover {
       background: lighten($wh-2, $amount: 55);
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# optimized-hosting
+--------------------------------------------------------------*/
+.optimized-hosting {
+  .icon-box {
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    .icon {
+      margin-bottom: 10px;
+      display: block;
+      height: 80px;
+    }
+    .wp {
+      background: url(../../../img/icons/optimized/Wordpress-icon.svg) no-repeat
+        center;
+    }
+    .jm {
+      background: url(../../../img/icons/optimized/Joomla-icon.svg) no-repeat
+        center;
+    }
+    .dp {
+      background: url(../../../img/icons/optimized/Drupal-icon.svg) no-repeat
+        center;
+    }
+    .wc {
+      background: url(../../../img/icons/optimized/WooCommerce-icon.svg)
+        no-repeat center;
+    }
+    .mg {
+      background: url(../../../img/icons/optimized/Magento-icon.svg) no-repeat
+        center;
+    }
+    .ps {
+      background: url(../../../img/icons/optimized/Prestashop-icon.svg)
+        no-repeat center;
+    }
+    .pb {
+      background: url(../../../img/icons/optimized/PhpBB-icon.svg) no-repeat
+        center;
+    }
+    .mb {
+      background: url(../../../img/icons/optimized/MyBB-icon.svg) no-repeat
+        center;
+    }
+    h4 {
+      text-align: center;
+      font-weight: 500;
+      // margin-bottom: 15px;
+      font-size: 18px;
+      a {
+        color: $wh-1;
+      }
+    }
+
+    &:hover {
+      // transform: translateY(-10px);
+      h4 {
+        a {
+          text-decoration: none;
+          color: $wh-2;
+        }
+      }
+    }
+  }
+}
+
+.section-bg-blu {
+  background-color: $wh-2;
+}
+
+/*--------------------------------------------------------------
+# one-click
+--------------------------------------------------------------*/
+.one-click {
+  .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    &::before {
+      content: "";
+      position: absolute;
+      background: lighten($wh-2, $amount: 45);
+      right: -60px;
+      top: -40px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      transition: all 0.3s;
+      z-index: -1;
+    }
+    &:hover {
+      &::before {
+        background: $wh-2;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+      }
+      .title {
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+      .description {
+        color: #fff;
+      }
+      .icon {
+        background-color: #fff;
+        .pn {
+          background: url(../../../img/icons/oneclick/pointer-blue.svg)
+            no-repeat center;
+        }
+        .wz {
+          background: url(../../../img/icons/oneclick/wizard-blue.svg) no-repeat
+            center;
+        }
+        .tm {
+          background: url(../../../img/icons/oneclick/time-blue.svg) no-repeat
+            center;
+        }
+      }
+    }
+  }
+  .icon {
+    margin: 0 auto 20px auto;
+    // padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: $wh-2;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .pn {
+    background: url(../../../img/icons/oneclick/pointer-white.svg) no-repeat
+      center;
+  }
+  .wz {
+    background: url(../../../img/icons/oneclick/wizard-white.svg) no-repeat
+      center;
+  }
+  .tm {
+    background: url(../../../img/icons/oneclick/time-white.svg) no-repeat center;
+  }
+
+  .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 16px;
+    a {
+      color: $wh-1;
+    }
+  }
+  .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+}
+
+.section-bg-light-grey {
+  background-color: #f6f6f6;
+}
+
+/*--------------------------------------------------------------
+# work-with-us Us
+--------------------------------------------------------------*/
+.work-with-us {
+  .section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #3b566e;
+    position: relative;
+    z-index: 2;
+  }
+  .section-title span {
+    position: absolute;
+    top: 30px;
+    color: #f6f6f6;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  .info-box {
+    color: #5b5b5b;
+    // box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    // padding: 20px;
+    .icon {
+      display: block;
+      text-align: center;
+      height: 50px;
+    }
+
+    .dt {
+      background: url(../../../img/icons/work/domain-transfer.svg) no-repeat
+        center;
+    }
+
+    h3 {
+      font-size: 22px;
+      color: $wh-3;
+      font-weight: 700;
+      margin: 10px 0 10px 68px;
+      a {
+        color: $wh-3;
+        text-decoration: underline;
+        cursor: pointer;
+        &:hover {
+          color: lighten($wh-2, $amount: 30);
+          transition: color 0.3s cubic-bezier(0.96, 0.39, 0.1, 0.76);
+        }
+      }
+    }
+    p {
+      padding: 0;
+      line-height: 24px;
+      font-size: 14px;
+      margin: 0 0 0 68px;
     }
   }
 }
