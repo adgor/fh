@@ -719,14 +719,61 @@ a.text-content-grey:hover {
 }
 
 // =================  Feature/domain Section =================
-#feature {
-  background: #f5f8fd;
-  h2 {
+// #feature {
+//   background: #bfc3ca;
+//   h2 {
+//     display: flex;
+//     align-items: center;
+//     font-size: 1.4rem;
+//     color: #6f8ba4;
+//     text-align: start;
+//   }
+// }
+
+.domain-features {
+  display: block;
+  .icon-box {
+    border: 1px solid #eef0ef;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
-    color: #6f8ba4;
-    text-align: start;
+    padding: 20px;
+    // background: #f6f6f6;
+    transition: ease-in-out 0.3s;
+    i {
+      color: $wh-3;
+      // background-color: red;
+      font-size: 32px;
+      // border-radius: 90%;
+      // margin-right: 10px;
+      padding-right: 10px;
+      line-height: 1;
+    }
+    .img-fluid {
+      // font-size: 32px;
+      // border-radius: 90%;
+      // margin-right: 10px;
+      padding-right: 10px;
+      // line-height: 1;
+    }
+    h3 {
+      font-weight: 600;
+      margin: 0;
+      // padding: 0;
+      line-height: 2rem;
+      font-size: 16px;
+      color: #5b5b5b;
+      // a {
+
+      //   transition: ease-in-out 0.3s;
+      //   text-decoration: none;
+      // }
+    }
+    // &:hover {
+    //   border: 1px solid $wh-3;
+    //   a {
+    //     color: $wh-3;
+    //   }
+    // }
   }
 }
 
@@ -1432,12 +1479,23 @@ a.text-content-grey:hover {
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #f6f6f6;
+    // background: #f6f6f6;
     transition: ease-in-out 0.3s;
     i {
+      color: $wh-3;
+      // background-color: red;
       font-size: 32px;
+      // border-radius: 90%;
+      // margin-right: 10px;
       padding-right: 10px;
       line-height: 1;
+    }
+    .img-fluid {
+      font-size: 32px;
+      // border-radius: 90%;
+      // margin-right: 10px;
+      padding-right: 10px;
+      // line-height: 1;
     }
     h3 {
       font-weight: 700;
@@ -1633,6 +1691,12 @@ a.text-content-grey:hover {
 .section-bg-light-grey {
   background-color: #f6f6f6;
 }
+.section-bg-light-grey-1 {
+  background-color: #f5f8fd;
+}
+.gray-bg {
+  background-color: #f2f3fa;
+}
 
 /*--------------------------------------------------------------
 # work-with-us Us
@@ -1788,28 +1852,6 @@ a.text-content-grey:hover {
   }
 }
 
-/**
-* Template Name: DevFolio - v2.2.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Blog Single
---------------------------------------------------------------*/
-/*------/ Comments /------*/
-/*------/ Sidebar /------*/
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -1874,7 +1916,7 @@ a.text-content-grey:hover {
     width: 40px;
     font-size: 1.7rem;
     border-radius: 50%;
-    line-height: 1.4;
+    // line-height: 1.4;
     margin: 0 15px 0 0;
     box-shadow: 0 0 0 3px $wh-2;
     transition: all 500ms ease;
@@ -1924,5 +1966,17 @@ a.text-content-grey:hover {
 @media (min-width: 768px) {
   .box-shadow-full {
     padding: 3rem;
+  }
+}
+
+// FAQ Section
+.accordion {
+  .card {
+    border: none;
+    background-color: $wh-2;
+    .card-body {
+      background-color: #f6f6f6;
+      color: #5b5b5b;
+    }
   }
 }

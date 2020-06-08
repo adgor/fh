@@ -678,20 +678,40 @@ a.text-content-grey:hover {
   color: #3b566e;
 }
 
-#feature {
-  background: #f5f8fd;
+.domain-features {
+  display: block;
 }
 
-#feature h2 {
+.domain-features .icon-box {
+  border: 1px solid #eef0ef;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.4rem;
-  color: #6f8ba4;
-  text-align: start;
+  padding: 20px;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.domain-features .icon-box i {
+  color: #63b0f2;
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.domain-features .icon-box .img-fluid {
+  padding-right: 10px;
+}
+
+.domain-features .icon-box h3 {
+  font-weight: 600;
+  margin: 0;
+  line-height: 2rem;
+  font-size: 16px;
+  color: #5b5b5b;
 }
 
 #transfer {
@@ -1385,15 +1405,20 @@ a.text-content-grey:hover {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
-  background: #f6f6f6;
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
 }
 
 .hosting-features .icon-box i {
+  color: #63b0f2;
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
+}
+
+.hosting-features .icon-box .img-fluid {
+  font-size: 32px;
+  padding-right: 10px;
 }
 
 .hosting-features .icon-box h3 {
@@ -1593,6 +1618,14 @@ a.text-content-grey:hover {
   background-color: #f6f6f6;
 }
 
+.section-bg-light-grey-1 {
+  background-color: #f5f8fd;
+}
+
+.gray-bg {
+  background-color: #f2f3fa;
+}
+
 /*--------------------------------------------------------------
 # work-with-us Us
 --------------------------------------------------------------*/
@@ -1758,26 +1791,6 @@ a.text-content-grey:hover {
   }
 }
 
-/**
-* Template Name: DevFolio - v2.2.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Blog Single
---------------------------------------------------------------*/
-/*------/ Comments /------*/
-/*------/ Sidebar /------*/
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 .paralax-mf {
   -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
@@ -1854,7 +1867,6 @@ a.text-content-grey:hover {
   width: 40px;
   font-size: 1.7rem;
   border-radius: 50%;
-  line-height: 1.4;
   margin: 0 15px 0 0;
   -webkit-box-shadow: 0 0 0 3px #1f5aa6;
           box-shadow: 0 0 0 3px #1f5aa6;
@@ -1908,5 +1920,15 @@ a.text-content-grey:hover {
   .box-shadow-full {
     padding: 3rem;
   }
+}
+
+.accordion .card {
+  border: none;
+  background-color: #1f5aa6;
+}
+
+.accordion .card .card-body {
+  background-color: #f6f6f6;
+  color: #5b5b5b;
 }
 /*# sourceMappingURL=main.css.map */
