@@ -125,6 +125,10 @@ a.text-content-grey:hover {
   color: #fff !important;
 }
 
+bg-white {
+  background-color: #fff;
+}
+
 .padd-section {
   padding-bottom: 60px;
   padding-top: 60px;
@@ -1974,7 +1978,189 @@ a.text-content-grey:hover {
   border-radius: 50%;
 }
 
+.custom-plans .border-radius-15 {
+  border-radius: 15px;
+}
+
+.custom-plans .card {
+  border: 1px solid #eff2f7;
+}
+
+.custom-plans .card .media-body h6 {
+  color: #011640;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.custom-plans .box-shadow-only-hover:hover {
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.1);
+          box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.1);
+}
+
+.custom-plans .hover-top {
+  position: relative;
+  top: 0;
+}
+
+.custom-plans .hover-top:hover {
+  top: -10px;
+}
+
+.custom-plans [class*="hover-"] {
+  -webkit-transition: ease-in-out all 0.35s;
+  transition: ease-in-out all 0.35s;
+}
+
+.custom-plans .hover-top-in .hover-top--in {
+  position: relative;
+  top: 0;
+}
+
+.custom-plans .hover-top-in:hover .hover-top--in {
+  top: -10px;
+}
+
+.custom-plans .border-radius-50 {
+  border-radius: 50%;
+}
+
 .plan-offer i {
   color: #17bf52;
+}
+
+#transfer-fh {
+  padding: 60px 0;
+  background: #004a99;
+}
+
+#transfer-fh .section-header h3 {
+  color: #fff;
+  margin: 0 0 60px 0;
+}
+
+#transfer-fh .section-header p {
+  color: #fff;
+}
+
+#transfer-fh .card {
+  background: #00458f;
+  border-color: #00458f;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#transfer-fh .card:hover {
+  background: #003b7a;
+  border-color: #003b7a;
+}
+
+#transfer-fh .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#transfer-fh .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#transfer-fh .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#transfer-fh .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#transfer-fh .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#transfer-fh .counters {
+  padding-top: 40px;
+}
+
+#transfer-fh .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#transfer-fh .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
+
+#transfer-fh-white {
+  padding: 60px 0;
+}
+
+#transfer-fh-white .section-header h3 {
+  color: #1a202c;
+  margin: 0 0 60px 0;
+}
+
+#transfer-fh-white .section-header p {
+  color: #2f323b;
+}
+
+#transfer-fh-white .card {
+  border: none;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #4a5568;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#transfer-fh-white .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#transfer-fh-white .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#transfer-fh-white .card p {
+  font-size: 15px;
+  color: #4a5568;
+}
+
+#transfer-fh-white .card .readmore {
+  color: #4a5568;
+  font-weight: 600;
+  display: inline-block;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-bottom: #666 solid 2px;
+  text-decoration: none;
+}
+
+#transfer-fh-white .card .readmore:hover {
+  border-bottom: #4a5568 solid 2px;
 }
 /*# sourceMappingURL=main.css.map */
