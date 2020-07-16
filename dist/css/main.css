@@ -154,6 +154,19 @@ bg-white {
   margin-bottom: 20px;
 }
 
+.section-title-1 {
+  font-size: 30px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-description-1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .center-heading {
   text-align: center;
 }
@@ -2162,5 +2175,49 @@ bg-white {
 
 #transfer-fh-white .card .readmore:hover {
   border-bottom: #4a5568 solid 2px;
+}
+
+/* why-us Section
+--------------------------------*/
+#whyus {
+  padding: 80px 0 60px 0;
+}
+
+#whyus .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#whyus .service-item:hover .service-icon svg {
+  color: #03c4eb;
+}
+
+#whyus .service-icon {
+  background: #03c4eb;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 1px solid #03c4eb;
+}
+
+#whyus .service-icon svg {
+  color: #fff;
+  font-size: 20px;
+}
+
+#whyus .service-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#whyus .service-title a {
+  color: #111;
+  text-decoration: none;
+}
+
+#whyus .service-description {
+  line-height: 24px;
 }
 /*# sourceMappingURL=main.css.map */

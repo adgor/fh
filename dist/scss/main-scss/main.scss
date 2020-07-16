@@ -164,6 +164,18 @@ bg-white {
   line-height: 38px;
   margin-bottom: 20px;
 }
+.section-title-1 {
+  font-size: 30px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-description-1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
 //  ================= Sections Header =================
 
@@ -2225,5 +2237,54 @@ bg-white {
         border-bottom: rgb(74, 85, 104) solid 2px;
       }
     }
+  }
+}
+
+/* why-us Section
+--------------------------------*/
+#whyus {
+  padding: 80px 0 60px 0;
+  .service-item {
+    // margin-bottom: 20px;
+    &:hover {
+      .service-icon {
+        background: #fff;
+        svg {
+          color: #03c4eb;
+        }
+      }
+    }
+  }
+  .service-icon {
+    // float: left;
+    background: #03c4eb;
+
+    // text-align: center;
+    // color: #fff;
+    // padding: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03c4eb;
+    svg {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  .service-title {
+    font-size: 18px;
+    // margin-left: 80px;
+    font-weight: 600;
+    // margin-bottom: 15px;
+    text-transform: uppercase;
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+  }
+  .service-description {
+    // margin-left: 80px;
+    line-height: 24px;
   }
 }
