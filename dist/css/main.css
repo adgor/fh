@@ -2006,6 +2006,10 @@ bg-white {
   font-size: 16px;
 }
 
+.custom-plans .card .media-body h6 span {
+  color: #17bf52;
+}
+
 .custom-plans .box-shadow-only-hover:hover {
   -webkit-box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.1);
           box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.1);
