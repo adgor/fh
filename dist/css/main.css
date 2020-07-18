@@ -255,7 +255,7 @@ bg-white {
   color: #6f8ba4;
   line-height: 28px;
   letter-spacing: 1px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 #services .center-text p {
@@ -289,8 +289,8 @@ bg-white {
   top: 0px;
   left: 0px;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
-  background-image: linear-gradient(#0288d1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
+  background-image: linear-gradient(#004a99);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   opacity: 0;
@@ -329,7 +329,19 @@ bg-white {
 
 #services .services-small-item:hover .button i {
   background-image: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
-  color: #0288d1 !important;
+  color: #004a99 !important;
+}
+
+#services .services-small-item:hover .button .i-1 {
+  color: #32a2de !important;
+}
+
+#services .services-small-item:hover .button .i-3 {
+  color: #ffbc5e !important;
+}
+
+#services .services-small-item:hover .button .i-4 {
+  color: #12913e !important;
 }
 
 #services .services-small-item:hover .wH {
@@ -374,8 +386,8 @@ bg-white {
   width: 100%;
   top: 22px;
   z-index: 2;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
-  background-image: linear-gradient(#0288d1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
+  background-image: linear-gradient(#004a99);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -390,7 +402,7 @@ bg-white {
 #services .services-small-item .services-title {
   font-weight: 400;
   font-size: 16px;
-  color: #0288d1;
+  color: #004a99;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -402,7 +414,7 @@ bg-white {
 #services .services-small-item .services-price {
   font-weight: 500;
   font-size: 30px;
-  color: #0288d1;
+  color: #004a99;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -428,8 +440,8 @@ bg-white {
   display: inline-block;
   margin: auto;
   width: 75px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
-  background-image: linear-gradient(#0288d1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
+  background-image: linear-gradient(#004a99);
   border-radius: 3px;
   position: relative;
   background-size: cover;
@@ -459,10 +471,25 @@ bg-white {
 #services .services-small-item .custom-separator {
   width: auto;
   height: 4px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
-  background: linear-gradient(#0288d1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#004a99));
+  background: linear-gradient(#004a99);
   border-radius: 100px;
   position: relative;
+}
+
+#services .services-small-item .cs-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#32a2de));
+  background: linear-gradient(#32a2de);
+}
+
+#services .services-small-item .cs-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffbc5e));
+  background: linear-gradient(#ffbc5e);
+}
+
+#services .services-small-item .cs-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#12913e));
+  background: linear-gradient(#12913e);
 }
 
 #services .services-small-item .button {
@@ -474,8 +501,8 @@ bg-white {
   width: 42px;
   height: 42px;
   font-style: normal;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0288d1));
-  background-image: linear-gradient(#0288d1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
+  background-image: linear-gradient(#004a99);
   line-height: 42px;
   text-align: center;
   border-radius: 4px;
@@ -483,9 +510,36 @@ bg-white {
   padding-left: 3px;
 }
 
+#services .services-small-item .button .i-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#32a2de));
+  background-image: linear-gradient(#32a2de);
+}
+
+#services .services-small-item .button .i-3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffbc5e));
+  background-image: linear-gradient(#ffbc5e);
+}
+
+#services .services-small-item .button .i-4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#12913e));
+  background-image: linear-gradient(#12913e);
+}
+
 #services .services-small-item .button .kot2 {
   font-weight: 600;
   font-size: 32px;
+}
+
+#services .services-small-item .st-1 {
+  color: #32a2de;
+}
+
+#services .services-small-item .st-3 {
+  color: #ffbc5e;
+}
+
+#services .services-small-item .st-4 {
+  color: #12913e;
 }
 
 #services .ho1:before {
@@ -494,18 +548,18 @@ bg-white {
 }
 
 #services .ho2:before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#2b32b2), to(#1488cc));
-  background-image: linear-gradient(to right, #2b32b2, #1488cc);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
+  background-image: linear-gradient(#004a99);
 }
 
 #services .ho3:before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#021b79), to(#0575e6));
-  background-image: linear-gradient(to right, #021b79, #0575e6);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffbc5e));
+  background-image: linear-gradient(#ffbc5e);
 }
 
 #services .ho4:before {
-  background-image: -webkit-gradient(linear, left top, right top, from(#363795), to(#005c97));
-  background-image: linear-gradient(to right, #363795, #005c97);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#12913e));
+  background-image: linear-gradient(#12913e);
 }
 
 #services .services-small-item.active:before {
@@ -703,6 +757,8 @@ bg-white {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
+  -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
   -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
 }
@@ -2127,60 +2183,6 @@ bg-white {
   color: #cce5ff;
 }
 
-#transfer-fh-white {
-  padding: 60px 0;
-}
-
-#transfer-fh-white .section-header h3 {
-  color: #1a202c;
-  margin: 0 0 60px 0;
-}
-
-#transfer-fh-white .section-header p {
-  color: #2f323b;
-}
-
-#transfer-fh-white .card {
-  border: none;
-  margin: 0 15px;
-  padding: 15px 0;
-  text-align: center;
-  color: #4a5568;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  height: 100%;
-}
-
-#transfer-fh-white .card i {
-  font-size: 48px;
-  padding-top: 15px;
-  color: #bfddfe;
-}
-
-#transfer-fh-white .card h5 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-#transfer-fh-white .card p {
-  font-size: 15px;
-  color: #4a5568;
-}
-
-#transfer-fh-white .card .readmore {
-  color: #4a5568;
-  font-weight: 600;
-  display: inline-block;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  border-bottom: #666 solid 2px;
-  text-decoration: none;
-}
-
-#transfer-fh-white .card .readmore:hover {
-  border-bottom: #4a5568 solid 2px;
-}
-
 /* why-us Section
 --------------------------------*/
 #whyus {
@@ -2222,48 +2224,5 @@ bg-white {
 
 #whyus .service-description {
   line-height: 26px;
-}
-
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
-.cta {
-  background: #1e57a1;
-  background-size: cover;
-  padding: 60px 0;
-}
-
-.cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.cta p {
-  color: #fff;
-}
-
-.cta a {
-  color: #fff;
-}
-
-.cta .cta-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 35px;
-  border-radius: 5px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-.cta .cta-btn:hover {
-  background: #fff;
-  color: #2487ce;
 }
 /*# sourceMappingURL=main.css.map */
