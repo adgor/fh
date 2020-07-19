@@ -348,14 +348,14 @@ bg-white {
           color: #1c5baa !important;
         }
         .i-2 {
-          color: #195299 !important;
+          color: #113766 !important;
         }
 
         .i-3 {
           color: #168f3f !important;
         }
         .i-4 {
-          color: #148139 !important;
+          color: #0d5626 !important;
         }
       }
 
@@ -519,13 +519,13 @@ bg-white {
       background: linear-gradient(#1c5baa);
     }
     .cs-2 {
-      background: linear-gradient(#195299);
+      background: linear-gradient(#113766);
     }
     .cs-3 {
       background: linear-gradient(#168f3f);
     }
     .cs-4 {
-      background: linear-gradient(#148139);
+      background: linear-gradient(#0d5626);
     }
 
     .button {
@@ -548,13 +548,13 @@ bg-white {
         background-image: linear-gradient(#1c5baa);
       }
       .i-2 {
-        background-image: linear-gradient(#195299);
+        background-image: linear-gradient(#113766);
       }
       .i-3 {
         background-image: linear-gradient(#168f3f);
       }
       .i-4 {
-        background-image: linear-gradient(#148139);
+        background-image: linear-gradient(#0d5626);
       }
       .kot2 {
         font-weight: 600;
@@ -565,13 +565,13 @@ bg-white {
       color: #1c5baa;
     }
     .st-2 {
-      color: #195299;
+      color: #113766;
     }
     .st-3 {
       color: #168f3f;
     }
     .st-4 {
-      color: #148139;
+      color: #0d5626;
     }
   }
 
@@ -582,7 +582,7 @@ bg-white {
   }
   .ho2 {
     &:before {
-      background-image: linear-gradient(#195299);
+      background-image: linear-gradient(#113766);
       // background-image: linear-gradient(to right, #2b32b2, #1488cc);
     }
   }
@@ -594,7 +594,7 @@ bg-white {
   }
   .ho4 {
     &:before {
-      background-image: linear-gradient(#148139);
+      background-image: linear-gradient(#0d5626);
       // background-image: linear-gradient(to right, #363795, #005c97);
     }
   }
