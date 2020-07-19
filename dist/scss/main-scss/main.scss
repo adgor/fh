@@ -345,7 +345,7 @@ bg-white {
           color: #004a99 !important;
         }
         .i-1 {
-          color: #608cc4 !important;
+          color: #1661cf !important;
         }
         .i-2 {
           color: #1c5baa !important;
@@ -355,7 +355,7 @@ bg-white {
           color: #5cb179 !important;
         }
         .i-4 {
-          color: #168f3f !important;
+          color: #12af47 !important;
         }
       }
 
@@ -516,7 +516,7 @@ bg-white {
       position: relative;
     }
     .cs-1 {
-      background: linear-gradient(#608cc4);
+      background: linear-gradient(#1661cf);
     }
     .cs-2 {
       background: linear-gradient(#1c5baa);
@@ -525,7 +525,7 @@ bg-white {
       background: linear-gradient(#5cb179);
     }
     .cs-4 {
-      background: linear-gradient(#168f3f);
+      background: linear-gradient(#12af47);
     }
 
     .button {
@@ -545,7 +545,7 @@ bg-white {
         padding-left: 3px;
       }
       .i-1 {
-        background-image: linear-gradient(#608cc4);
+        background-image: linear-gradient(#1661cf);
       }
       .i-2 {
         background-image: linear-gradient(#1c5baa);
@@ -554,7 +554,7 @@ bg-white {
         background-image: linear-gradient(#5cb179);
       }
       .i-4 {
-        background-image: linear-gradient(#168f3f);
+        background-image: linear-gradient(#12af47);
       }
       .kot2 {
         font-weight: 600;
@@ -562,7 +562,7 @@ bg-white {
       }
     }
     .st-1 {
-      color: #608cc4;
+      color: #1661cf;
     }
     .st-2 {
       color: #1c5baa;
@@ -571,13 +571,13 @@ bg-white {
       color: #5cb179;
     }
     .st-4 {
-      color: #168f3f;
+      color: #12af47;
     }
   }
 
   .ho1 {
     &:before {
-      background-image: linear-gradient(#608cc4);
+      background-image: linear-gradient(#1661cf);
     }
   }
   .ho2 {
@@ -594,7 +594,7 @@ bg-white {
   }
   .ho4 {
     &:before {
-      background-image: linear-gradient(#168f3f);
+      background-image: linear-gradient(#12af47);
       // background-image: linear-gradient(to right, #363795, #005c97);
     }
   }
