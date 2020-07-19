@@ -333,19 +333,19 @@ bg-white {
 }
 
 #services .services-small-item:hover .button .i-1 {
-  color: #1661cf !important;
+  color: #2f86f7 !important;
 }
 
 #services .services-small-item:hover .button .i-2 {
-  color: #1c5baa !important;
+  color: #256ac4 !important;
 }
 
 #services .services-small-item:hover .button .i-3 {
-  color: #5cb179 !important;
+  color: #17bf52 !important;
 }
 
 #services .services-small-item:hover .button .i-4 {
-  color: #12af47 !important;
+  color: #32784b !important;
 }
 
 #services .services-small-item:hover .wH {
@@ -456,8 +456,8 @@ bg-white {
 }
 
 #services .services-small-item .ib-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb179));
-  background-image: linear-gradient(#5cb179);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
+  background-image: linear-gradient(#17bf52);
 }
 
 #services .services-small-item .icon1 {
@@ -495,23 +495,23 @@ bg-white {
 }
 
 #services .services-small-item .cs-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1661cf));
-  background: linear-gradient(#1661cf);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2f86f7));
+  background: linear-gradient(#2f86f7);
 }
 
 #services .services-small-item .cs-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1c5baa));
-  background: linear-gradient(#1c5baa);
+  background: -webkit-gradient(linear, left top, left bottom, from(#256ac4));
+  background: linear-gradient(#256ac4);
 }
 
 #services .services-small-item .cs-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5cb179));
-  background: linear-gradient(#5cb179);
+  background: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
+  background: linear-gradient(#17bf52);
 }
 
 #services .services-small-item .cs-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#12af47));
-  background: linear-gradient(#12af47);
+  background: -webkit-gradient(linear, left top, left bottom, from(#32784b));
+  background: linear-gradient(#32784b);
 }
 
 #services .services-small-item .button {
@@ -533,23 +533,23 @@ bg-white {
 }
 
 #services .services-small-item .button .i-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1661cf));
-  background-image: linear-gradient(#1661cf);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f86f7));
+  background-image: linear-gradient(#2f86f7);
 }
 
 #services .services-small-item .button .i-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1c5baa));
-  background-image: linear-gradient(#1c5baa);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#256ac4));
+  background-image: linear-gradient(#256ac4);
 }
 
 #services .services-small-item .button .i-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb179));
-  background-image: linear-gradient(#5cb179);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
+  background-image: linear-gradient(#17bf52);
 }
 
 #services .services-small-item .button .i-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#12af47));
-  background-image: linear-gradient(#12af47);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#32784b));
+  background-image: linear-gradient(#32784b);
 }
 
 #services .services-small-item .button .kot2 {
@@ -558,39 +558,39 @@ bg-white {
 }
 
 #services .services-small-item .st-1 {
-  color: #1661cf;
+  color: #2f86f7;
 }
 
 #services .services-small-item .st-2 {
-  color: #1c5baa;
+  color: #256ac4;
 }
 
 #services .services-small-item .st-3 {
-  color: #5cb179;
+  color: #17bf52;
 }
 
 #services .services-small-item .st-4 {
-  color: #12af47;
+  color: #32784b;
 }
 
 #services .ho1:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1661cf));
-  background-image: linear-gradient(#1661cf);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f86f7));
+  background-image: linear-gradient(#2f86f7);
 }
 
 #services .ho2:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1c5baa));
-  background-image: linear-gradient(#1c5baa);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#256ac4));
+  background-image: linear-gradient(#256ac4);
 }
 
 #services .ho3:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb179));
-  background-image: linear-gradient(#5cb179);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
+  background-image: linear-gradient(#17bf52);
 }
 
 #services .ho4:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#12af47));
-  background-image: linear-gradient(#12af47);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#32784b));
+  background-image: linear-gradient(#32784b);
 }
 
 #services .services-small-item.active:before {
