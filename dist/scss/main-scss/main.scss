@@ -351,7 +351,7 @@ bg-white {
           color: #12913e !important;
         }
         .i-4 {
-          color: #ffbc5e !important;
+          color: #d3a518 !important;
         }
       }
 
@@ -518,7 +518,7 @@ bg-white {
       background: linear-gradient(#12913e);
     }
     .cs-4 {
-      background: linear-gradient(#ffbc5e);
+      background: linear-gradient(#d3a518);
     }
 
     .button {
@@ -544,7 +544,7 @@ bg-white {
         background-image: linear-gradient(#12913e);
       }
       .i-4 {
-        background-image: linear-gradient(#ffbc5e);
+        background-image: linear-gradient(#d3a518);
       }
       .kot2 {
         font-weight: 600;
@@ -558,7 +558,7 @@ bg-white {
       color: #12913e;
     }
     .st-4 {
-      color: #ffbc5e;
+      color: #d3a518;
     }
   }
 
@@ -581,7 +581,7 @@ bg-white {
   }
   .ho4 {
     &:before {
-      background-image: linear-gradient(#ffbc5e);
+      background-image: linear-gradient(#d3a518);
       // background-image: linear-gradient(to right, #363795, #005c97);
     }
   }
