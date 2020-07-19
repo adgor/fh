@@ -345,10 +345,10 @@ bg-white {
           color: #004a99 !important;
         }
         .i-1 {
-          color: #2f86f7 !important;
+          color: #17437b !important;
         }
         .i-2 {
-          color: #256ac4 !important;
+          color: #12913e !important;
         }
 
         .i-3 {
@@ -516,10 +516,10 @@ bg-white {
       position: relative;
     }
     .cs-1 {
-      background: linear-gradient(#2f86f7);
+      background: linear-gradient(#17437b);
     }
     .cs-2 {
-      background: linear-gradient(#256ac4);
+      background: linear-gradient(#12913e);
     }
     .cs-3 {
       background: linear-gradient(#38a654);
@@ -545,10 +545,10 @@ bg-white {
         padding-left: 3px;
       }
       .i-1 {
-        background-image: linear-gradient(#2f86f7);
+        background-image: linear-gradient(#17437b);
       }
       .i-2 {
-        background-image: linear-gradient(#256ac4);
+        background-image: linear-gradient(#12913e);
       }
       .i-3 {
         background-image: linear-gradient(#38a654);
@@ -562,10 +562,10 @@ bg-white {
       }
     }
     .st-1 {
-      color: #2f86f7;
+      color: #17437b;
     }
     .st-2 {
-      color: #256ac4;
+      color: #12913e;
     }
     .st-3 {
       color: #38a654;
@@ -577,12 +577,12 @@ bg-white {
 
   .ho1 {
     &:before {
-      background-image: linear-gradient(#2f86f7);
+      background-image: linear-gradient(#17437b);
     }
   }
   .ho2 {
     &:before {
-      background-image: linear-gradient(#256ac4);
+      background-image: linear-gradient(#12913e);
       // background-image: linear-gradient(to right, #2b32b2, #1488cc);
     }
   }
