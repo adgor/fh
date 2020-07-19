@@ -345,13 +345,17 @@ bg-white {
           color: #004a99 !important;
         }
         .i-1 {
-          color: #32a2de !important;
+          color: #0084c6 !important;
         }
+        .i-2 {
+          color: #1f5aa6 !important;
+        }
+
         .i-3 {
-          color: #12913e !important;
+          color: #00cca8 !important;
         }
         .i-4 {
-          color: #d3a518 !important;
+          color: #88e783 !important;
         }
       }
 
@@ -474,7 +478,7 @@ bg-white {
       // display: block;
     }
     .ib-3 {
-      background-image: linear-gradient(#12913e);
+      background-image: linear-gradient(#00cca8);
     }
 
     .icon1 {
@@ -512,13 +516,16 @@ bg-white {
       position: relative;
     }
     .cs-1 {
-      background: linear-gradient(#32a2de);
+      background: linear-gradient(#0084c6);
+    }
+    .cs-2 {
+      background: linear-gradient(#1f5aa6);
     }
     .cs-3 {
-      background: linear-gradient(#12913e);
+      background: linear-gradient(#00cca8);
     }
     .cs-4 {
-      background: linear-gradient(#d3a518);
+      background: linear-gradient(#88e783);
     }
 
     .button {
@@ -538,13 +545,16 @@ bg-white {
         padding-left: 3px;
       }
       .i-1 {
-        background-image: linear-gradient(#32a2de);
+        background-image: linear-gradient(#0084c6);
+      }
+      .i-2 {
+        background-image: linear-gradient(#1f5aa6);
       }
       .i-3 {
-        background-image: linear-gradient(#12913e);
+        background-image: linear-gradient(#00cca8);
       }
       .i-4 {
-        background-image: linear-gradient(#d3a518);
+        background-image: linear-gradient(#88e783);
       }
       .kot2 {
         font-weight: 600;
@@ -552,36 +562,39 @@ bg-white {
       }
     }
     .st-1 {
-      color: #32a2de;
+      color: #0084c6;
+    }
+    .st-2 {
+      color: #1f5aa6;
     }
     .st-3 {
-      color: #12913e;
+      color: #00cca8;
     }
     .st-4 {
-      color: #d3a518;
+      color: #88e783;
     }
   }
 
   .ho1 {
     &:before {
-      background-image: linear-gradient(to right, #32a2de, #44a3dd);
+      background-image: linear-gradient(#0084c6);
     }
   }
   .ho2 {
     &:before {
-      background-image: linear-gradient(#004a99);
+      background-image: linear-gradient(#1f5aa6);
       // background-image: linear-gradient(to right, #2b32b2, #1488cc);
     }
   }
   .ho3 {
     &:before {
-      background-image: linear-gradient(#12913e);
+      background-image: linear-gradient(#00cca8);
       // background-image: linear-gradient(to right, #021b79, #0575e6);
     }
   }
   .ho4 {
     &:before {
-      background-image: linear-gradient(#d3a518);
+      background-image: linear-gradient(#88e783);
       // background-image: linear-gradient(to right, #363795, #005c97);
     }
   }
