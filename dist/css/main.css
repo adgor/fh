@@ -341,11 +341,11 @@ bg-white {
 }
 
 #services .services-small-item:hover .button .i-3 {
-  color: #17bf52 !important;
+  color: #18c956 !important;
 }
 
 #services .services-small-item:hover .button .i-4 {
-  color: #1df23d !important;
+  color: #12913e !important;
 }
 
 #services .services-small-item:hover .wH {
@@ -456,8 +456,8 @@ bg-white {
 }
 
 #services .services-small-item .ib-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
-  background-image: linear-gradient(#17bf52);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#18c956));
+  background-image: linear-gradient(#18c956);
 }
 
 #services .services-small-item .icon1 {
@@ -505,13 +505,13 @@ bg-white {
 }
 
 #services .services-small-item .cs-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
-  background: linear-gradient(#17bf52);
+  background: -webkit-gradient(linear, left top, left bottom, from(#18c956));
+  background: linear-gradient(#18c956);
 }
 
 #services .services-small-item .cs-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1df23d));
-  background: linear-gradient(#1df23d);
+  background: -webkit-gradient(linear, left top, left bottom, from(#12913e));
+  background: linear-gradient(#12913e);
 }
 
 #services .services-small-item .button {
@@ -543,13 +543,13 @@ bg-white {
 }
 
 #services .services-small-item .button .i-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
-  background-image: linear-gradient(#17bf52);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#18c956));
+  background-image: linear-gradient(#18c956);
 }
 
 #services .services-small-item .button .i-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1df23d));
-  background-image: linear-gradient(#1df23d);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#12913e));
+  background-image: linear-gradient(#12913e);
 }
 
 #services .services-small-item .button .kot2 {
@@ -566,11 +566,11 @@ bg-white {
 }
 
 #services .services-small-item .st-3 {
-  color: #17bf52;
+  color: #18c956;
 }
 
 #services .services-small-item .st-4 {
-  color: #1df23d;
+  color: #12913e;
 }
 
 #services .ho1:before {
@@ -584,13 +584,13 @@ bg-white {
 }
 
 #services .ho3:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#17bf52));
-  background-image: linear-gradient(#17bf52);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#18c956));
+  background-image: linear-gradient(#18c956);
 }
 
 #services .ho4:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1df23d));
-  background-image: linear-gradient(#1df23d);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#12913e));
+  background-image: linear-gradient(#12913e);
 }
 
 #services .services-small-item.active:before {
