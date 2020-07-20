@@ -304,7 +304,7 @@ bg-white {
       top: 0px;
       left: 0px;
       border-radius: 5px;
-      background-image: linear-gradient(#004a99);
+      background-image: linear-gradient(#1f5aa6);
       -webkit-transition: all 0.3s ease 0s;
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
@@ -342,10 +342,10 @@ bg-white {
             #fff 0%,
             #fff 100%
           ) !important;
-          color: #004a99 !important;
+          color: #1f5aa6 !important;
         }
         .i-1 {
-          color: #17437b !important;
+          color: #00458f !important;
         }
         .i-2 {
           color: #12913e !important;
@@ -356,6 +356,19 @@ bg-white {
         }
         .i-4 {
           color: #18c454 !important;
+        }
+        .i-13 {
+          color: #2f86f7 !important;
+        }
+        .i-23 {
+          color: #256ac4 !important;
+        }
+
+        .i-33 {
+          color: #38a654 !important;
+        }
+        .i-43 {
+          color: #328c49 !important;
         }
       }
 
@@ -409,7 +422,7 @@ bg-white {
         top: 22px;
         z-index: 2;
         // font-size: 28px;
-        background-image: linear-gradient(#004a99);
+        background-image: linear-gradient(#1f5aa6);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-transition: all 0.3s ease 0s;
@@ -427,7 +440,7 @@ bg-white {
     .services-title {
       font-weight: 400;
       font-size: 16px;
-      color: #004a99;
+      color: #1f5aa6;
       letter-spacing: 0.7px;
       margin-bottom: 15px;
       position: relative;
@@ -440,7 +453,7 @@ bg-white {
     .services-price {
       font-weight: 500;
       font-size: 30px;
-      color: #004a99;
+      color: #1f5aa6;
       letter-spacing: 0.7px;
       margin-bottom: 15px;
       position: relative;
@@ -470,7 +483,7 @@ bg-white {
       margin: auto;
       width: 75px;
       // height: 82px;
-      background-image: linear-gradient(#004a99);
+      background-image: linear-gradient(#1f5aa6);
       border-radius: 3px;
       position: relative;
       background-size: cover;
@@ -511,13 +524,14 @@ bg-white {
     .custom-separator {
       width: auto;
       height: 4px;
-      background: linear-gradient(#004a99);
+      background: linear-gradient(#1f5aa6);
       border-radius: 100px;
       position: relative;
     }
     .cs-1 {
-      background: linear-gradient(#17437b);
+      background: linear-gradient(#00458f);
     }
+
     .cs-2 {
       background: linear-gradient(#12913e);
     }
@@ -527,6 +541,19 @@ bg-white {
     .cs-4 {
       background: linear-gradient(#18c454);
     }
+    .cs-13 {
+      background: linear-gradient(#2f86f7);
+    }
+
+    .cs-23 {
+      background: linear-gradient(#256ac4);
+    }
+    .cs-33 {
+      background: linear-gradient(#38a654);
+    }
+    .cs-43 {
+      background: linear-gradient(#328c49);
+    }
 
     .button {
       position: relative;
@@ -535,7 +562,7 @@ bg-white {
         width: 42px;
         height: 42px;
         font-style: normal;
-        background-image: linear-gradient(#004a99);
+        background-image: linear-gradient(#1f5aa6);
         line-height: 42px;
         text-align: center;
         -webkit-border-radius: 100px;
@@ -545,7 +572,7 @@ bg-white {
         padding-left: 3px;
       }
       .i-1 {
-        background-image: linear-gradient(#17437b);
+        background-image: linear-gradient(#00458f);
       }
       .i-2 {
         background-image: linear-gradient(#12913e);
@@ -556,13 +583,25 @@ bg-white {
       .i-4 {
         background-image: linear-gradient(#18c454);
       }
+      .i-13 {
+        background-image: linear-gradient(#2f86f7);
+      }
+      .i-23 {
+        background-image: linear-gradient(#256ac4);
+      }
+      .i-33 {
+        background-image: linear-gradient(#38a654);
+      }
+      .i-43 {
+        background-image: linear-gradient(#328c49);
+      }
       .kot2 {
         font-weight: 600;
         font-size: 32px;
       }
     }
     .st-1 {
-      color: #17437b;
+      color: #00458f;
     }
     .st-2 {
       color: #12913e;
@@ -573,11 +612,23 @@ bg-white {
     .st-4 {
       color: #18c454;
     }
+    .st-13 {
+      color: #2f86f7;
+    }
+    .st-23 {
+      color: #256ac4;
+    }
+    .st-33 {
+      color: #38a654;
+    }
+    .st-43 {
+      color: #328c49;
+    }
   }
 
   .ho1 {
     &:before {
-      background-image: linear-gradient(#17437b);
+      background-image: linear-gradient(#00458f);
     }
   }
   .ho2 {
@@ -595,6 +646,29 @@ bg-white {
   .ho4 {
     &:before {
       background-image: linear-gradient(#18c454);
+      // background-image: linear-gradient(to right, #363795, #005c97);
+    }
+  }
+  .ho13 {
+    &:before {
+      background-image: linear-gradient(#2f86f7);
+    }
+  }
+  .ho23 {
+    &:before {
+      background-image: linear-gradient(#256ac4);
+      // background-image: linear-gradient(to right, #2b32b2, #1488cc);
+    }
+  }
+  .ho33 {
+    &:before {
+      background-image: linear-gradient(#38a654);
+      // background-image: linear-gradient(to right, #021b79, #0575e6);
+    }
+  }
+  .ho43 {
+    &:before {
+      background-image: linear-gradient(#328c49);
       // background-image: linear-gradient(to right, #363795, #005c97);
     }
   }
@@ -749,7 +823,7 @@ bg-white {
 
 // ================= Domain Section =================
 #domain {
-  // background: #f5f8fd;
+  background: #e9eff6;
   display: block;
   box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
 
@@ -810,6 +884,7 @@ bg-white {
 // }
 
 .domain-features {
+  background: #f6f6f5;
   display: block;
   .icon-box {
     border: 1px solid #eef0ef;
@@ -2189,7 +2264,7 @@ bg-white {
 // Transfer to FH
 #transfer-fh {
   padding: 60px 0;
-  background: #004a99;
+  background: #1f5aa6;
   .section-header {
     h3 {
       color: #fff;
@@ -2266,14 +2341,14 @@ bg-white {
       .service-icon {
         background: #fff;
         svg {
-          color: #03c4eb;
+          color: #63b0f2;
         }
       }
     }
   }
   .service-icon {
     // float: left;
-    background: #03c4eb;
+    background: #63b0f2;
 
     // text-align: center;
     // color: #fff;
@@ -2282,7 +2357,7 @@ bg-white {
     height: 32px;
     border-radius: 50%;
     transition: 0.5s;
-    border: 1px solid #03c4eb;
+    border: 1px solid #63b0f2;
     svg {
       color: #fff;
       font-size: 20px;

@@ -289,8 +289,8 @@ bg-white {
   top: 0px;
   left: 0px;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
-  background-image: linear-gradient(#004a99);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f5aa6));
+  background-image: linear-gradient(#1f5aa6);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   opacity: 0;
@@ -329,11 +329,11 @@ bg-white {
 
 #services .services-small-item:hover .button i {
   background-image: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
-  color: #004a99 !important;
+  color: #1f5aa6 !important;
 }
 
 #services .services-small-item:hover .button .i-1 {
-  color: #17437b !important;
+  color: #00458f !important;
 }
 
 #services .services-small-item:hover .button .i-2 {
@@ -346,6 +346,22 @@ bg-white {
 
 #services .services-small-item:hover .button .i-4 {
   color: #18c454 !important;
+}
+
+#services .services-small-item:hover .button .i-13 {
+  color: #2f86f7 !important;
+}
+
+#services .services-small-item:hover .button .i-23 {
+  color: #256ac4 !important;
+}
+
+#services .services-small-item:hover .button .i-33 {
+  color: #38a654 !important;
+}
+
+#services .services-small-item:hover .button .i-43 {
+  color: #328c49 !important;
 }
 
 #services .services-small-item:hover .wH {
@@ -394,8 +410,8 @@ bg-white {
   width: 100%;
   top: 22px;
   z-index: 2;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
-  background-image: linear-gradient(#004a99);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f5aa6));
+  background-image: linear-gradient(#1f5aa6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -410,7 +426,7 @@ bg-white {
 #services .services-small-item .services-title {
   font-weight: 400;
   font-size: 16px;
-  color: #004a99;
+  color: #1f5aa6;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -422,7 +438,7 @@ bg-white {
 #services .services-small-item .services-price {
   font-weight: 500;
   font-size: 30px;
-  color: #004a99;
+  color: #1f5aa6;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -448,8 +464,8 @@ bg-white {
   display: inline-block;
   margin: auto;
   width: 75px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
-  background-image: linear-gradient(#004a99);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f5aa6));
+  background-image: linear-gradient(#1f5aa6);
   border-radius: 3px;
   position: relative;
   background-size: cover;
@@ -488,15 +504,15 @@ bg-white {
 #services .services-small-item .custom-separator {
   width: auto;
   height: 4px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#004a99));
-  background: linear-gradient(#004a99);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1f5aa6));
+  background: linear-gradient(#1f5aa6);
   border-radius: 100px;
   position: relative;
 }
 
 #services .services-small-item .cs-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#17437b));
-  background: linear-gradient(#17437b);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00458f));
+  background: linear-gradient(#00458f);
 }
 
 #services .services-small-item .cs-2 {
@@ -514,6 +530,26 @@ bg-white {
   background: linear-gradient(#18c454);
 }
 
+#services .services-small-item .cs-13 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2f86f7));
+  background: linear-gradient(#2f86f7);
+}
+
+#services .services-small-item .cs-23 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#256ac4));
+  background: linear-gradient(#256ac4);
+}
+
+#services .services-small-item .cs-33 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#38a654));
+  background: linear-gradient(#38a654);
+}
+
+#services .services-small-item .cs-43 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#328c49));
+  background: linear-gradient(#328c49);
+}
+
 #services .services-small-item .button {
   position: relative;
   z-index: 2;
@@ -523,8 +559,8 @@ bg-white {
   width: 42px;
   height: 42px;
   font-style: normal;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#004a99));
-  background-image: linear-gradient(#004a99);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f5aa6));
+  background-image: linear-gradient(#1f5aa6);
   line-height: 42px;
   text-align: center;
   border-radius: 4px;
@@ -533,8 +569,8 @@ bg-white {
 }
 
 #services .services-small-item .button .i-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#17437b));
-  background-image: linear-gradient(#17437b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00458f));
+  background-image: linear-gradient(#00458f);
 }
 
 #services .services-small-item .button .i-2 {
@@ -552,13 +588,33 @@ bg-white {
   background-image: linear-gradient(#18c454);
 }
 
+#services .services-small-item .button .i-13 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f86f7));
+  background-image: linear-gradient(#2f86f7);
+}
+
+#services .services-small-item .button .i-23 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#256ac4));
+  background-image: linear-gradient(#256ac4);
+}
+
+#services .services-small-item .button .i-33 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#38a654));
+  background-image: linear-gradient(#38a654);
+}
+
+#services .services-small-item .button .i-43 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#328c49));
+  background-image: linear-gradient(#328c49);
+}
+
 #services .services-small-item .button .kot2 {
   font-weight: 600;
   font-size: 32px;
 }
 
 #services .services-small-item .st-1 {
-  color: #17437b;
+  color: #00458f;
 }
 
 #services .services-small-item .st-2 {
@@ -573,9 +629,25 @@ bg-white {
   color: #18c454;
 }
 
+#services .services-small-item .st-13 {
+  color: #2f86f7;
+}
+
+#services .services-small-item .st-23 {
+  color: #256ac4;
+}
+
+#services .services-small-item .st-33 {
+  color: #38a654;
+}
+
+#services .services-small-item .st-43 {
+  color: #328c49;
+}
+
 #services .ho1:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#17437b));
-  background-image: linear-gradient(#17437b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00458f));
+  background-image: linear-gradient(#00458f);
 }
 
 #services .ho2:before {
@@ -591,6 +663,26 @@ bg-white {
 #services .ho4:before {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#18c454));
   background-image: linear-gradient(#18c454);
+}
+
+#services .ho13:before {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f86f7));
+  background-image: linear-gradient(#2f86f7);
+}
+
+#services .ho23:before {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#256ac4));
+  background-image: linear-gradient(#256ac4);
+}
+
+#services .ho33:before {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#38a654));
+  background-image: linear-gradient(#38a654);
+}
+
+#services .ho43:before {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#328c49));
+  background-image: linear-gradient(#328c49);
 }
 
 #services .services-small-item.active:before {
@@ -726,6 +818,7 @@ bg-white {
 }
 
 #domain {
+  background: #e9eff6;
   display: block;
   -webkit-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
           box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
@@ -776,6 +869,7 @@ bg-white {
 }
 
 .domain-features {
+  background: #f6f6f5;
   display: block;
 }
 
@@ -2135,7 +2229,7 @@ bg-white {
 
 #transfer-fh {
   padding: 60px 0;
-  background: #004a99;
+  background: #1f5aa6;
 }
 
 #transfer-fh .section-header h3 {
@@ -2225,17 +2319,17 @@ bg-white {
 }
 
 #whyus .service-item:hover .service-icon svg {
-  color: #03c4eb;
+  color: #63b0f2;
 }
 
 #whyus .service-icon {
-  background: #03c4eb;
+  background: #63b0f2;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border: 1px solid #03c4eb;
+  border: 1px solid #63b0f2;
 }
 
 #whyus .service-icon svg {
