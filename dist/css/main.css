@@ -818,7 +818,7 @@ bg-white {
 }
 
 #domain {
-  background: #e9eff6;
+  background: #fff;
   display: block;
   -webkit-box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
           box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
@@ -869,7 +869,7 @@ bg-white {
 }
 
 .domain-features {
-  background: #fafafa;
+  background: #fff;
   display: block;
 }
 
