@@ -646,8 +646,8 @@ bg-white {
 }
 
 #services .ho1:before {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#00458f));
-  background-image: linear-gradient(#00458f);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1f5aa6));
+  background-image: linear-gradient(#1f5aa6);
 }
 
 #services .ho2:before {
