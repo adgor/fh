@@ -358,17 +358,17 @@ bg-white {
           color: #18c454 !important;
         }
         .i-13 {
-          color: #2f86f7 !important;
+          color: #1f5aa6 !important;
         }
         .i-23 {
-          color: #256ac4 !important;
+          color: #1f5aa6 !important;
         }
 
         .i-33 {
-          color: #38a654 !important;
+          color: #17bf52 !important;
         }
         .i-43 {
-          color: #328c49 !important;
+          color: #17bf52 !important;
         }
       }
 
@@ -542,17 +542,17 @@ bg-white {
       background: linear-gradient(#18c454);
     }
     .cs-13 {
-      background: linear-gradient(#2f86f7);
+      background: linear-gradient(#1f5aa6);
     }
 
     .cs-23 {
-      background: linear-gradient(#256ac4);
+      background: linear-gradient(#1f5aa6);
     }
     .cs-33 {
-      background: linear-gradient(#38a654);
+      background: linear-gradient(#17bf52);
     }
     .cs-43 {
-      background: linear-gradient(#328c49);
+      background: linear-gradient(#17bf52);
     }
 
     .button {
@@ -584,16 +584,16 @@ bg-white {
         background-image: linear-gradient(#18c454);
       }
       .i-13 {
-        background-image: linear-gradient(#2f86f7);
+        background-image: linear-gradient(#1f5aa6);
       }
       .i-23 {
-        background-image: linear-gradient(#256ac4);
+        background-image: linear-gradient(#1f5aa6);
       }
       .i-33 {
-        background-image: linear-gradient(#38a654);
+        background-image: linear-gradient(#17bf52);
       }
       .i-43 {
-        background-image: linear-gradient(#328c49);
+        background-image: linear-gradient(#17bf52);
       }
       .kot2 {
         font-weight: 600;
@@ -613,16 +613,16 @@ bg-white {
       color: #18c454;
     }
     .st-13 {
-      color: #2f86f7;
+      color: #1f5aa6;
     }
     .st-23 {
-      color: #256ac4;
+      color: #1f5aa6;
     }
     .st-33 {
-      color: #38a654;
+      color: #17bf52;
     }
     .st-43 {
-      color: #328c49;
+      color: #17bf52;
     }
   }
 
@@ -651,24 +651,24 @@ bg-white {
   }
   .ho13 {
     &:before {
-      background-image: linear-gradient(#2f86f7);
+      background-image: linear-gradient(#1f5aa6);
     }
   }
   .ho23 {
     &:before {
-      background-image: linear-gradient(#256ac4);
+      background-image: linear-gradient(#1f5aa6);
       // background-image: linear-gradient(to right, #2b32b2, #1488cc);
     }
   }
   .ho33 {
     &:before {
-      background-image: linear-gradient(#38a654);
+      background-image: linear-gradient(#17bf52);
       // background-image: linear-gradient(to right, #021b79, #0575e6);
     }
   }
   .ho43 {
     &:before {
-      background-image: linear-gradient(#328c49);
+      background-image: linear-gradient(#17bf52);
       // background-image: linear-gradient(to right, #363795, #005c97);
     }
   }
