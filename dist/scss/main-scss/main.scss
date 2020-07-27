@@ -825,6 +825,7 @@ bg-white {
 #domain {
   background: #fff;
   display: block;
+
   box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
   .center-text {
     text-align: center;
@@ -882,6 +883,12 @@ bg-white {
     user-select: none;
     padding-left: 32px !important;
     padding-right: 32px !important;
+  }
+  p {
+    color: $wh-2;
+    span {
+      color: $wh-1;
+    }
   }
 
   a {

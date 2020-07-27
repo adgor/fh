@@ -867,6 +867,14 @@ bg-white {
   padding-right: 32px !important;
 }
 
+#domain p {
+  color: #1f5aa6;
+}
+
+#domain p span {
+  color: #011640;
+}
+
 #domain a {
   text-decoration: none;
   color: #3b566e;
