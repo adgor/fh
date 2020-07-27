@@ -251,17 +251,17 @@ bg-white {
   a {
     text-decoration: none !important;
   }
-  .center-heading {
-    text-align: center;
-    .section-title {
-      font-weight: 400;
-      font-size: 28px;
-      color: #3b566e;
-      letter-spacing: 1.1px;
-      line-height: 38px;
-      margin-bottom: 20px;
-    }
-  }
+  // .center-heading {
+  //   text-align: center;
+  //   .section-title {
+  //     font-weight: 400;
+  //     font-size: 28px;
+  //     color: #3b566e;
+  //     letter-spacing: 1.1px;
+  //     line-height: 38px;
+  //     margin-bottom: 20px;
+  //   }
+  // }
   .center-heading.colored {
     .section-title {
       color: #ffffff;
@@ -826,10 +826,22 @@ bg-white {
   background: #fff;
   display: block;
   box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
-
-  h2 {
-    color: #3b566e;
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    p {
+      margin-bottom: 30px;
+    }
   }
+
+  // h2 {
+  //   color: #3b566e;
+  // }
 
   .form-control {
     border-radius: 5px;
@@ -839,14 +851,14 @@ bg-white {
     background: #fff;
 
     &:focus {
-      border-color: $blue;
+      border-color: $wh-2;
       box-shadow: none;
       outline: 0 none;
     }
   }
 
   .btn {
-    background: $blue;
+    background: $wh-2;
     border-radius: 3px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -2034,6 +2046,13 @@ bg-white {
   margin-bottom: 3rem;
 }
 .title-left {
+  font-weight: 600;
+  // font-size: 28px;
+  color: #3b566e;
+  letter-spacing: 1.1px;
+  line-height: 38px;
+  // margin-bottom: 20px;
+
   font-size: 2rem;
   position: relative;
   &:before {
@@ -2196,6 +2215,18 @@ bg-white {
 // Custom plans
 
 .custom-plans {
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    p {
+      margin-bottom: 30px;
+    }
+  }
   .border-radius-15 {
     border-radius: 15px;
   }
@@ -2264,7 +2295,11 @@ bg-white {
 // Transfer to FH
 #transfer-fh {
   padding: 60px 0;
-  background: #1f5aa6;
+  background: $wh-2;
+  h2 {
+    color: #fff;
+    margin: 0 0 60px 0;
+  }
   .section-header {
     h3 {
       color: #fff;
@@ -2335,6 +2370,18 @@ bg-white {
 --------------------------------*/
 #whyus {
   padding: 80px 0 60px 0;
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    p {
+      margin-bottom: 30px;
+    }
+  }
   .service-item {
     // margin-bottom: 20px;
     &:hover {

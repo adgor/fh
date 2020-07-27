@@ -231,19 +231,6 @@ bg-white {
   text-decoration: none !important;
 }
 
-#services .center-heading {
-  text-align: center;
-}
-
-#services .center-heading .section-title {
-  font-weight: 400;
-  font-size: 28px;
-  color: #3b566e;
-  letter-spacing: 1.1px;
-  line-height: 38px;
-  margin-bottom: 20px;
-}
-
 #services .center-heading.colored .section-title {
   color: #ffffff;
 }
@@ -824,8 +811,18 @@ bg-white {
           box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
-#domain h2 {
-  color: #3b566e;
+#domain .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+#domain .center-text p {
+  margin-bottom: 30px;
 }
 
 #domain .form-control {
@@ -836,14 +833,14 @@ bg-white {
 }
 
 #domain .form-control:focus {
-  border-color: #0288d1;
+  border-color: #1f5aa6;
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0 none;
 }
 
 #domain .btn {
-  background: #0288d1;
+  background: #1f5aa6;
   border-radius: 3px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -2014,6 +2011,10 @@ bg-white {
 }
 
 .title-left {
+  font-weight: 600;
+  color: #3b566e;
+  letter-spacing: 1.1px;
+  line-height: 38px;
   font-size: 2rem;
   position: relative;
 }
@@ -2172,6 +2173,20 @@ bg-white {
   border-radius: 50%;
 }
 
+.custom-plans .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.custom-plans .center-text p {
+  margin-bottom: 30px;
+}
+
 .custom-plans .border-radius-15 {
   border-radius: 15px;
 }
@@ -2230,6 +2245,11 @@ bg-white {
 #transfer-fh {
   padding: 60px 0;
   background: #1f5aa6;
+}
+
+#transfer-fh h2 {
+  color: #fff;
+  margin: 0 0 60px 0;
 }
 
 #transfer-fh .section-header h3 {
@@ -2312,6 +2332,20 @@ bg-white {
 --------------------------------*/
 #whyus {
   padding: 80px 0 60px 0;
+}
+
+#whyus .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+#whyus .center-text p {
+  margin-bottom: 30px;
 }
 
 #whyus .service-item:hover .service-icon {
