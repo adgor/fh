@@ -872,7 +872,11 @@ bg-white {
 }
 
 #domain p span {
-  color: #6f8ba4;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  line-height: 1.625;
+  font-weight: 500;
 }
 
 #domain a {
