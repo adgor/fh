@@ -358,17 +358,17 @@ bg-white {
           color: #18c454 !important;
         }
         .i-13 {
-          color: #1f5aa6 !important;
+          color: #2f86f7 !important;
         }
         .i-23 {
-          color: #1f5aa6 !important;
+          color: #256ac4 !important;
         }
 
         .i-33 {
-          color: #17bf52 !important;
+          color: #38a654 !important;
         }
         .i-43 {
-          color: #17bf52 !important;
+          color: #328c49 !important;
         }
       }
 
@@ -542,17 +542,17 @@ bg-white {
       background: linear-gradient(#18c454);
     }
     .cs-13 {
-      background: linear-gradient(#1f5aa6);
+      background: linear-gradient(#2f86f7);
     }
 
     .cs-23 {
-      background: linear-gradient(#1f5aa6);
+      background: linear-gradient(#256ac4);
     }
     .cs-33 {
-      background: linear-gradient(#17bf52);
+      background: linear-gradient(#38a654);
     }
     .cs-43 {
-      background: linear-gradient(#17bf52);
+      background: linear-gradient(#328c49);
     }
 
     .button {
@@ -584,16 +584,16 @@ bg-white {
         background-image: linear-gradient(#18c454);
       }
       .i-13 {
-        background-image: linear-gradient(#1f5aa6);
+        background-image: linear-gradient(#2f86f7);
       }
       .i-23 {
-        background-image: linear-gradient(#1f5aa6);
+        background-image: linear-gradient(#256ac4);
       }
       .i-33 {
-        background-image: linear-gradient(#17bf52);
+        background-image: linear-gradient(#38a654);
       }
       .i-43 {
-        background-image: linear-gradient(#17bf52);
+        background-image: linear-gradient(#328c49);
       }
       .kot2 {
         font-weight: 600;
@@ -613,27 +613,27 @@ bg-white {
       color: #18c454;
     }
     .st-13 {
-      color: #1f5aa6;
+      color: #2f86f7;
     }
     .st-23 {
-      color: #1f5aa6;
+      color: #256ac4;
     }
     .st-33 {
-      color: #17bf52;
+      color: #38a654;
     }
     .st-43 {
-      color: #17bf52;
+      color: #328c49;
     }
   }
 
   .ho1 {
     &:before {
-      background-image: linear-gradient(#1f5aa6);
+      background-image: linear-gradient(#00458f);
     }
   }
   .ho2 {
     &:before {
-      background-image: linear-gradient(#17bf52);
+      background-image: linear-gradient(#12913e);
       // background-image: linear-gradient(to right, #2b32b2, #1488cc);
     }
   }
@@ -651,24 +651,24 @@ bg-white {
   }
   .ho13 {
     &:before {
-      background-image: linear-gradient(#1f5aa6);
+      background-image: linear-gradient(#2f86f7);
     }
   }
   .ho23 {
     &:before {
-      background-image: linear-gradient(#1f5aa6);
+      background-image: linear-gradient(#256ac4);
       // background-image: linear-gradient(to right, #2b32b2, #1488cc);
     }
   }
   .ho33 {
     &:before {
-      background-image: linear-gradient(#17bf52);
+      background-image: linear-gradient(#38a654);
       // background-image: linear-gradient(to right, #021b79, #0575e6);
     }
   }
   .ho43 {
     &:before {
-      background-image: linear-gradient(#17bf52);
+      background-image: linear-gradient(#328c49);
       // background-image: linear-gradient(to right, #363795, #005c97);
     }
   }
@@ -884,7 +884,7 @@ bg-white {
 // }
 
 .domain-features {
-  background: #f6f6f5;
+  background: #fafafa;
   display: block;
   .icon-box {
     border: 1px solid #eef0ef;
@@ -2209,7 +2209,7 @@ bg-white {
         line-height: 1;
         font-size: 16px;
         span {
-          color: #11e279;
+          color: darken(#11e279, $amount: 10%);
         }
       }
     }
