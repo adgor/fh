@@ -1362,8 +1362,13 @@ bg-white {
 /*--------------------------------------------------------------
 # pricing-web-hosting
 --------------------------------------------------------------*/
-.pricing-web-hosting .row {
-  padding-top: 40px;
+.pricing-web-hosting .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .pricing-web-hosting .box {
@@ -1658,6 +1663,15 @@ bg-white {
 /*--------------------------------------------------------------
 # optimized-hosting
 --------------------------------------------------------------*/
+.optimized-hosting .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
 .optimized-hosting .icon-box {
   padding: 30px;
   background: #fff;
@@ -1724,6 +1738,16 @@ bg-white {
 /*--------------------------------------------------------------
 # one-click
 --------------------------------------------------------------*/
+.one-click .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
 .one-click .icon-box {
   padding: 30px;
   position: relative;
@@ -1840,34 +1864,14 @@ bg-white {
 /*--------------------------------------------------------------
 # work-with-us Us
 --------------------------------------------------------------*/
-.work-with-us .section-title {
+.work-with-us .center-text {
   text-align: center;
-  padding: 30px 0;
-  position: relative;
-}
-
-.work-with-us .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
   margin-bottom: 20px;
-  padding-bottom: 0;
-  color: #3b566e;
-  position: relative;
-  z-index: 2;
-}
-
-.work-with-us .section-title span {
-  position: absolute;
-  top: 30px;
-  color: #f6f6f6;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  font-weight: 700;
-  font-size: 52px;
-  text-transform: uppercase;
-  line-height: 0;
 }
 
 .work-with-us .info-box {
@@ -1938,12 +1942,13 @@ bg-white {
   width: 100%;
 }
 
-#more-power .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #3b566e;
-  position: relative;
+#more-power .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  margin-bottom: 20px;
 }
 
 #more-power .feature-block {
@@ -2145,6 +2150,15 @@ bg-white {
 .accordion .card .card-body {
   background-color: #f6f6f6;
   color: #5b5b5b;
+}
+
+.hos-features .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .hos-features .border-radius-15 {

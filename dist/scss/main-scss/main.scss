@@ -1397,9 +1397,16 @@ bg-white {
 --------------------------------------------------------------*/
 
 .pricing-web-hosting {
-  .row {
-    padding-top: 40px;
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 24px;
+    // letter-spacing: 1px;
+    margin-bottom: 20px;
   }
+
   .box {
     padding: 40px 40px;
     box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
@@ -1709,6 +1716,15 @@ bg-white {
 # optimized-hosting
 --------------------------------------------------------------*/
 .optimized-hosting {
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+    // letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
   .icon-box {
     padding: 30px;
     background: #fff;
@@ -1780,6 +1796,15 @@ bg-white {
 # one-click
 --------------------------------------------------------------*/
 .one-click {
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
   .icon-box {
     padding: 30px;
     position: relative;
@@ -1889,33 +1914,37 @@ bg-white {
 # work-with-us Us
 --------------------------------------------------------------*/
 .work-with-us {
-  .section-title {
+  .center-text {
     text-align: center;
-    padding: 30px 0;
-    position: relative;
-  }
-  .section-title h2 {
-    font-size: 32px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 28px;
+    letter-spacing: 1px;
     margin-bottom: 20px;
-    padding-bottom: 0;
-    color: #3b566e;
-    position: relative;
-    z-index: 2;
   }
-  .section-title span {
-    position: absolute;
-    top: 30px;
-    color: #f6f6f6;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    font-weight: 700;
-    font-size: 52px;
-    text-transform: uppercase;
-    line-height: 0;
-  }
+  // .section-title h2 {
+  //   font-size: 32px;
+  //   font-weight: 700;
+  //   text-transform: uppercase;
+  //   margin-bottom: 20px;
+  //   padding-bottom: 0;
+  //   color: #3b566e;
+  //   position: relative;
+  //   z-index: 2;
+  // }
+  // .section-title span {
+  //   position: absolute;
+  //   top: 30px;
+  //   color: #f6f6f6;
+  //   left: 0;
+  //   right: 0;
+  //   z-index: 1;
+  //   font-weight: 700;
+  //   font-size: 52px;
+  //   text-transform: uppercase;
+  //   line-height: 0;
+  // }
   .info-box {
     color: #5b5b5b;
     // box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -1977,17 +2006,26 @@ bg-white {
 /* Need More Power Section
 --------------------------------*/
 #more-power {
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 28px;
+    // letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
   display: inline-block;
   height: 100%;
   width: 100%;
-  .section-title h2 {
-    font-size: 32px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #3b566e;
-    position: relative;
-    // z-index: 2;
-  }
+  // .section-title h2 {
+  //   font-size: 32px;
+  //   font-weight: 700;
+  //   text-transform: uppercase;
+  //   color: #3b566e;
+  //   position: relative;
+  // z-index: 2;
+  // }
   .feature-block {
     background: #f6f6f6 none repeat scroll 0 0;
     padding: 30px 20px;
@@ -2178,6 +2216,15 @@ bg-white {
 // Hosting feature
 
 .hos-features {
+  .center-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6f8ba4;
+    line-height: 24px;
+    // letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
   .border-radius-15 {
     border-radius: 15px;
   }
