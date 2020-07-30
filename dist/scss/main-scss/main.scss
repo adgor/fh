@@ -2057,14 +2057,17 @@ bg-white {
       visibility: visible;
     }
     a {
-      color: #505050;
+      color: $wh-2;
+      border: 1px solid $wh-2;
+      // box-sizing: border-box;
+      border-radius: 4px;
       font-size: 12px;
       font-weight: 600;
       text-decoration: none;
       text-transform: capitalize;
       transition: 0.3s;
       &:hover {
-        color: $wh-3;
+        background-color: #e9eff6;
       }
     }
   }
