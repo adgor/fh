@@ -1497,6 +1497,26 @@ bg-white {
   border: 1px solid #17bf52;
 }
 
+.pricing-web-hosting .box .h-button-featured-silver {
+  background-color: #A6ABBD;
+  border: 1px solid #A6ABBD;
+}
+
+.pricing-web-hosting .box .h-button-featured-silver:hover {
+  background-color: #898fa7;
+  border: 1px solid #A6ABBD;
+}
+
+.pricing-web-hosting .box .h-button-featured-gold {
+  background-color: #F1A208;
+  border: 1px solid #F1A208;
+}
+
+.pricing-web-hosting .box .h-button-featured-gold:hover {
+  background-color: #c08106;
+  border: 1px solid #F1A208;
+}
+
 .pricing-web-hosting .box button {
   border-radius: 0;
 }
@@ -1534,8 +1554,16 @@ bg-white {
   background-color: #78a8e6;
 }
 
+.pricing-web-hosting .kot-save-gold {
+  background-color: #fbd07e;
+}
+
 .pricing-web-hosting .kot-save-featured {
   background-color: #7ff0a7;
+}
+
+.pricing-web-hosting .kot-save-featured-silver {
+  background-color: #c3c7d3;
 }
 
 .pricing-web-hosting .List {
@@ -2558,6 +2586,103 @@ bg-white {
     text-align: center;
     float: none;
     padding-top: 4px;
+  }
+}
+
+/*--------------------------------------------------------------
+# why-business-hosting
+--------------------------------------------------------------*/
+.why-business-hosting .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.why-business-hosting .pad-items {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.why-business-hosting .icon-box {
+  padding: 50px 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.why-business-hosting .icon {
+  margin-bottom: 15px;
+}
+
+.why-business-hosting .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #212529;
+}
+
+.why-business-hosting .description {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  margin: 0 0 11px 0;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# perfect-business-hosting
+--------------------------------------------------------------*/
+#perfect-business-hosting {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+#perfect-business-hosting .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+#perfect-business-hosting .feature-block {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px 20px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#perfect-business-hosting .feature-block:hover {
+  -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#perfect-business-hosting .feature-block svg {
+  margin-bottom: 30px;
+}
+
+#perfect-business-hosting .feature-block h4 {
+  color: #011640;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  #perfect-business-hosting .feature-block {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
