@@ -2685,4 +2685,136 @@ bg-white {
     margin-bottom: 30px;
   }
 }
+
+/*--------------------------------------------------------------
+# what-you-get Section
+--------------------------------------------------------------*/
+.what-you-get .center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.what-you-get .icon-box h4 {
+  color: #1f5aa6;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 80px;
+}
+
+.what-you-get .icon-box i {
+  float: left;
+}
+
+.what-you-get .icon-box p {
+  font-size: 15px;
+  color: #6f8ba4;
+  margin-left: 80px;
+  padding-right: 130px;
+}
+
+.what-you-get .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.what-you-get .header h4 {
+  color: #1f5aa6;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.what-you-get .pad-items-zero {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.what-you-get .bord-left {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.what-you-get .bord-right {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.what-you-get .dotted-top {
+  background-image: radial-gradient(#6f8ba4 2px, transparent 0);
+  background-size: 20px 20px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-top: 56px;
+  margin-left: 1390px;
+}
+
+.what-you-get .dotted-bottom {
+  background-image: radial-gradient(#6f8ba4 2px, transparent 0);
+  background-size: 20px 20px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: -10;
+  margin-top: -190px;
+  margin-left: 944px;
+}
+
+.what-you-get .feature-block {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px 20px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  -webkit-box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.what-you-get .feature-block svg {
+  margin-bottom: 20px;
+}
+
+.what-you-get .feature-block h4 {
+  color: #011640;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+
+.what-you-get .feature-block p {
+  font-size: 14px;
+  color: #6f8ba4;
+}
+
+.what-you-get .feature-block a {
+  color: #1f5aa6;
+  border: 1px solid #1f5aa6;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.what-you-get .feature-block a:hover {
+  background-color: #e9eff6;
+}
+
+.dotted {
+  background-image: radial-gradient(#6f8ba4 2px, transparent 0);
+  background-size: 20px 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-top: -150px;
+  margin-right: 30px;
+}
 /*# sourceMappingURL=main.css.map */
