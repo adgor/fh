@@ -2699,7 +2699,7 @@ bg-white {
 }
 
 .what-you-get .icon-box h4 {
-  color: #1f5aa6;
+  color: #011640;
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 80px;
@@ -2816,5 +2816,176 @@ bg-white {
   position: relative;
   margin-top: -150px;
   margin-right: 30px;
+}
+
+/*--------------------------------------------------------------
+# choose-linux
+--------------------------------------------------------------*/
+.choose-linux .center-text {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.choose-linux .pad-items {
+  padding-left: 5px;
+  padding-right: 0px;
+  padding-top: 5px;
+}
+
+.choose-linux h5 {
+  color: #011640;
+  float: right;
+  font-weight: 600;
+}
+
+.choose-linux h5 a {
+  color: #1f5aa6;
+  text-decoration: none;
+}
+
+.choose-linux .icon-box {
+  border: 1px solid #d4d6df;
+  text-align: center;
+  padding: 30px 35px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.choose-linux .icon-box .icon {
+  width: 60px;
+  height: 60px;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.choose-linux .icon-box .cent {
+  background: url(../../../img/icons/vps-linux/cent-os-blue.svg) no-repeat center;
+}
+
+.choose-linux .icon-box .ubuntu {
+  background: url(../../../img/icons/vps-linux/ubuntu-os-blue.svg) no-repeat center;
+}
+
+.choose-linux .icon-box .fedora {
+  background: url(../../../img/icons/vps-linux/fedora-os-blue.svg) no-repeat center;
+}
+
+.choose-linux .icon-box .debian {
+  background: url(../../../img/icons/vps-linux/debian-os-blue.svg) no-repeat center;
+}
+
+.choose-linux .icon-box h4 {
+  color: #011640;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.choose-linux .icon-box h4 a {
+  color: #36343a;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.choose-linux .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.choose-linux .icon-box:hover {
+  border-color: #1f5aa6;
+  -webkit-box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.choose-linux .icon-box:hover h4 a {
+  color: #1f5aa6;
+  text-decoration: none;
+}
+
+.choose-linux .icon-box:hover .cent {
+  background: url(../../../img/icons/vps-linux/cent-os.svg) no-repeat center;
+}
+
+.choose-linux .icon-box:hover .ubuntu {
+  background: url(../../../img/icons/vps-linux/ubuntu-os.svg) no-repeat center;
+}
+
+.choose-linux .icon-box:hover .fedora {
+  background: url(../../../img/icons/vps-linux/fedora-os.svg) no-repeat center;
+}
+
+.choose-linux .icon-box:hover .debian {
+  background: url(../../../img/icons/vps-linux/debian-os.svg) no-repeat center;
+}
+
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta h3 {
+  color: #011640;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.cta h4 {
+  color: #1f5aa6;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta .cta-btn-started,
+.cta .cta-btn-learn {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cta .cta-btn-learn {
+  color: #1f5aa6;
+  border: 1px solid #1f5aa6;
+  background: #fff;
+  margin-left: 8px;
+}
+
+.cta .cta-btn-learn:hover {
+  background: #e9eff6;
+  text-decoration: none;
+}
+
+.cta .cta-btn-started {
+  color: #fff;
+  background: #1f5aa6;
+}
+
+.cta .cta-btn-started:hover {
+  background: #e9eff6;
+  color: #1f5aa6;
+  text-decoration: none;
+}
+
+@media (min-width: 769px) {
+  .cta .cta-btn-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
 }
 /*# sourceMappingURL=main.css.map */
