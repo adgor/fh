@@ -2836,13 +2836,13 @@ bg-white {
   padding-top: 5px;
 }
 
-.choose-linux h5 {
+.choose-linux h2 {
   color: #011640;
   float: right;
   font-weight: 600;
 }
 
-.choose-linux h5 a {
+.choose-linux h2 a {
   color: #1f5aa6;
   text-decoration: none;
 }
@@ -2987,5 +2987,61 @@ bg-white {
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
+}
+
+.pricing-vps-linux table {
+  color: #011640;
+  line-height: 16px;
+}
+
+.pricing-vps-linux table p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #A6ABBD;
+}
+
+.pricing-vps-linux table .price-vps {
+  font-size: 1.25rem;
+}
+
+.pricing-vps-linux table .price-vps span {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.pricing-vps-linux table .cta-btn-started,
+.pricing-vps-linux table .cta-btn-learn {
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pricing-vps-linux table .cta-btn-learn {
+  color: #1f5aa6;
+  border: 1px solid #1f5aa6;
+  background: #fff;
+  margin-left: 8px;
+}
+
+.pricing-vps-linux table .cta-btn-learn:hover {
+  background: #e9eff6;
+  text-decoration: none;
+}
+
+.pricing-vps-linux table .cta-btn-started {
+  cursor: pointer;
+  color: #fff;
+  background: #17bf52;
+}
+
+.pricing-vps-linux table .cta-btn-started:hover {
+  background: #e9eff6;
+  color: #17bf52;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

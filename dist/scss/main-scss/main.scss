@@ -2893,7 +2893,7 @@ bg-white {
     padding-right: 0px;
     padding-top: 5px;
   }
-  h5 {
+  h2 {
     color: $wh-1;
     float: right;
     font-weight: 600;
@@ -3038,6 +3038,61 @@ bg-white {
       display: flex;
       align-items: center;
       justify-content: flex-end;
+    }
+  }
+}
+
+.pricing-vps-linux {
+  table {
+    color: $wh-1;
+    line-height: 16px;
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: $bh-silver;
+    }
+    .price-vps {
+      font-size: 1.25rem;
+      span {
+        font-size: 14px;
+        text-transform: lowercase;
+      }
+    }
+
+    .cta-btn-started,
+    .cta-btn-learn {
+      font-weight: 600;
+      font-size: 16px;
+      // letter-spacing: 1px;
+      display: inline-block;
+      padding: 12px 35px;
+      border-radius: 4px;
+      transition: 0.5s;
+      // margin: 10px;
+      // border: 2px solid #fff;
+    }
+
+    .cta-btn-learn {
+      color: $wh-2;
+      border: 1px solid $wh-2;
+      background: #fff;
+      margin-left: 8px;
+      &:hover {
+        // color: #fff;
+        background: #e9eff6;
+        text-decoration: none;
+      }
+    }
+    .cta-btn-started {
+      cursor: pointer;
+      color: #fff;
+      background: $wh-4;
+      &:hover {
+        background: #e9eff6;
+        color: $wh-4;
+        text-decoration: none;
+      }
     }
   }
 }
