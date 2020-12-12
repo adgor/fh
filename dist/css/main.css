@@ -3044,4 +3044,44 @@ bg-white {
   color: #17bf52;
   text-decoration: none;
 }
+
+@media (max-width: 480px) {
+  .table-container {
+    position: relative;
+    max-width: 460px;
+    overflow: scroll;
+  }
+  .table-container thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 2;
+  }
+  .table-container thead th:first-child {
+    background: #f5f8fd;
+    left: 0;
+    z-index: 3;
+  }
+  .table-container tbody {
+    overflow: scroll;
+    /* MAKE LEFT COLUMN FIXEZ */
+  }
+  .table-container tbody tr > :first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    background: #f5f8fd;
+    left: 0;
+  }
+  .table-container tfoot {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 2;
+  }
+  .table-container tfoot th:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 3;
+    background: #fff;
+    left: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */
