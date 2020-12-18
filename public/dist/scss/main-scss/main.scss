@@ -3097,53 +3097,7 @@ bg-white {
   }
 }
 
-@media (max-width: 480px) {
-  .table-container {
-    position: relative;
-    // max-height: 450px;
-    max-width: 460px;
-    // width: 375px;
-    overflow: scroll;
-    thead {
-      th {
-        position: -webkit-sticky;
-        position: sticky;
-        z-index: 2;
-
-        &:first-child {
-          background: #f5f8fd;
-
-          left: 0;
-          z-index: 3;
-        }
-      }
-    }
-
-    tbody {
-      overflow: scroll;
-      // height: 200px;
-
-      /* MAKE LEFT COLUMN FIXEZ */
-      tr > :first-child {
-        position: -webkit-sticky;
-        position: sticky;
-        background: #f5f8fd;
-        left: 0;
-      }
-    }
-
-    tfoot {
-      position: sticky;
-      // bottom: 0;
-      z-index: 2;
-      // background: hsl(20, 50%, 70%);
-
-      th:first-child {
-        position: sticky;
-        z-index: 3;
-        background: #fff;
-        left: 0;
-      }
-    }
-  }
+// Pricing tail block
+.tw-table {
+  overflow: hidden;
 }
