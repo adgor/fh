@@ -25,6 +25,9 @@
 
   <link rel="stylesheet" href="./public/dist/css/pricing.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
   <!-- Custom Style CSS -->
   <link rel="stylesheet" href="./public/dist/css/custom-style.css">
   <link rel="stylesheet" href="./public/dist/css/tailwind.css">
@@ -361,9 +364,9 @@
     </div>
   </section><!-- End Pricing Section -->
 
-   <!-- Prova per Responsive -->
+    <!-- Prova per Responsive -->
    <!-- TW - Prova VPS Table Pricing -->
-   <section class="tw-text-dblue-700 tw-overflow-hidden">
+   <section class="tw-hidden sm:tw-block tw-text-dblue-700 tw-overflow-hidden">
     <h2 class=" text-center tw-text-xl">Responsive Table</h2>
     <div class="tw-container tw-px-5 tw-py-24 tw-mx-auto tw-flex tw-flex-wrap">
       <div class="lg:tw-w-2/12 tw-mt-48 tw-hidden lg:tw-block">
@@ -906,6 +909,282 @@
       </div>
     </div>
    </section>
+
+   <!-- Swiperjs -->
+  <!-- Slider main container -->
+  <section class="container sm:tw-hidden tw-text-dblue-700 tw-overflow-hidden">  
+    <div class=" swiper-container tw-container tw-py-24 ">
+      <div class=" swiper-wrapper  tw-border-dblue-300 ">
+        <div class="swiper-slide tw-px-5">
+          <div class=" tw-border-2 tw-border-dblue-300 ">
+            <div class=" tw-px-8 tw-text-right tw-text-ebay-500 tw-h-48 tw-flex tw-flex-col tw-items-start tw-justify-center">
+              <h3 class=" tw-font-bold tw-text-xl tw-tracking-widest">Plan 1</h3>
+              <span class=" tw-text-xs tw-pt-3 tw-float-right ">As low as</span>
+              <h2
+                class="tw-text-6xl tw-text-dblue-500 tw-font-bold tw-flex tw-items-center tw-justify-center tw-leading-none tw-mb-4 tw-mt-0 ">
+                $4.9
+                <span class=" tw-text-base tw-ml-1">/mo</span>
+              </h2>
+              <span class="tw-text-sm">Charging $49 per year</span>
+            </div>            
+            <div class="tw-px-6 tw-pb-3 tw-text-center tw-border-dblue-300">
+              <button
+                class="tw-flex tw-items-center tw-mt-auto tw-text-white tw-bg-green-500 tw-border-0 tw-py-2 tw-px-4 tw-w-full focus:tw-outline-none hover:tw-bg-green-600 tw-rounded">Buy Now
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="tw-w-4 tw-h-4 tw-ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>  
+            </div>
+            <div class="tw-px-8 tw-text-right tw-mb-8 tw-flex tw-flex-col tw-items-start">          
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 GB RAM</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">20 GB SSD</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 TB Bandwidth</span>
+            </p>
+           
+            </div>          
+          </div>     
+        </div>
+        <div class="swiper-slide tw-px-5">
+          <div class=" tw-border-2 tw-border-dblue-300 ">
+            <div class=" tw-px-8 tw-text-right tw-text-ebay-500 tw-h-48 tw-flex tw-flex-col tw-items-start tw-justify-center">
+              <h3 class=" tw-font-bold tw-text-xl tw-tracking-widest">Plan 2</h3>
+              <span class=" tw-text-xs tw-pt-3 tw-float-right ">As low as</span>
+              <h2
+                class="tw-text-6xl tw-text-dblue-500 tw-font-bold tw-flex tw-items-center tw-justify-center tw-leading-none tw-mb-4 tw-mt-0 ">
+                $4.9
+                <span class=" tw-text-base tw-ml-1">/mo</span>
+              </h2>
+              <span class="tw-text-sm">Charging $49 per year</span>
+            </div>            
+            <div class="tw-px-6 tw-pb-3 tw-text-center tw-border-dblue-300">
+              <button
+                class="tw-flex tw-items-center tw-mt-auto tw-text-white tw-bg-green-500 tw-border-0 tw-py-2 tw-px-4 tw-w-full focus:tw-outline-none hover:tw-bg-green-600 tw-rounded">Buy Now
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="tw-w-4 tw-h-4 tw-ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>  
+            </div>
+            <div class="tw-px-8 tw-text-right tw-mb-8 tw-flex tw-flex-col tw-items-start">          
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 GB RAM</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">20 GB SSD</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 TB Bandwidth</span>
+            </p>
+           
+            </div>          
+          </div>     
+        </div>
+        <div class="swiper-slide tw-px-5">
+          <div class=" tw-border-2 tw-border-dblue-300 ">
+            <div class=" tw-px-8 tw-text-right tw-text-ebay-500 tw-h-48 tw-flex tw-flex-col tw-items-start tw-justify-center">
+              <h3 class=" tw-font-bold tw-text-xl tw-tracking-widest">Plan 3</h3>
+              <span class=" tw-text-xs tw-pt-3 tw-float-right ">As low as</span>
+              <h2
+                class="tw-text-6xl tw-text-dblue-500 tw-font-bold tw-flex tw-items-center tw-justify-center tw-leading-none tw-mb-4 tw-mt-0 ">
+                $4.9
+                <span class=" tw-text-base tw-ml-1">/mo</span>
+              </h2>
+              <span class="tw-text-sm">Charging $49 per year</span>
+            </div>            
+            <div class="tw-px-6 tw-pb-3 tw-text-center tw-border-dblue-300">
+              <button
+                class="tw-flex tw-items-center tw-mt-auto tw-text-white tw-bg-green-500 tw-border-0 tw-py-2 tw-px-4 tw-w-full focus:tw-outline-none hover:tw-bg-green-600 tw-rounded">Buy Now
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="tw-w-4 tw-h-4 tw-ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>  
+            </div>
+            <div class="tw-px-8 tw-text-right tw-mb-8 tw-flex tw-flex-col tw-items-start">          
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 GB RAM</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">20 GB SSD</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 TB Bandwidth</span>
+            </p>
+           
+            </div>          
+          </div>     
+        </div>
+        <div class="swiper-slide tw-px-5">
+          <div class=" tw-border-2 tw-border-dblue-300 ">
+            <div class=" tw-px-8 tw-text-right tw-text-ebay-500 tw-h-48 tw-flex tw-flex-col tw-items-start tw-justify-center">
+              <h3 class=" tw-font-bold tw-text-xl tw-tracking-widest">Plan 4</h3>
+              <span class=" tw-text-xs tw-pt-3 tw-float-right ">As low as</span>
+              <h2
+                class="tw-text-6xl tw-text-dblue-500 tw-font-bold tw-flex tw-items-center tw-justify-center tw-leading-none tw-mb-4 tw-mt-0 ">
+                $4.9
+                <span class=" tw-text-base tw-ml-1">/mo</span>
+              </h2>
+              <span class="tw-text-sm">Charging $49 per year</span>
+            </div>            
+            <div class="tw-px-6 tw-pb-3 tw-text-center tw-border-dblue-300">
+              <button
+                class="tw-flex tw-items-center tw-mt-auto tw-text-white tw-bg-green-500 tw-border-0 tw-py-2 tw-px-4 tw-w-full focus:tw-outline-none hover:tw-bg-green-600 tw-rounded">Buy Now
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="tw-w-4 tw-h-4 tw-ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>  
+            </div>
+            <div class="tw-px-8 tw-text-right tw-mb-8 tw-flex tw-flex-col tw-items-start">          
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 GB RAM</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">20 GB SSD</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 TB Bandwidth</span>
+            </p>
+           
+            </div>          
+          </div>     
+        </div>
+        <div class="swiper-slide tw-px-5">
+          <div class=" tw-border-2 tw-border-dblue-300 ">
+            <div class=" tw-px-8 tw-text-right tw-text-ebay-500 tw-h-48 tw-flex tw-flex-col tw-items-start tw-justify-center">
+              <h3 class=" tw-font-bold tw-text-xl tw-tracking-widest">Plan 5</h3>
+              <span class=" tw-text-xs tw-pt-3 tw-float-right ">As low as</span>
+              <h2
+                class="tw-text-6xl tw-text-dblue-500 tw-font-bold tw-flex tw-items-center tw-justify-center tw-leading-none tw-mb-4 tw-mt-0 ">
+                $4.9
+                <span class=" tw-text-base tw-ml-1">/mo</span>
+              </h2>
+              <span class="tw-text-sm">Charging $49 per year</span>
+            </div>            
+            <div class="tw-px-6 tw-pb-3 tw-text-center tw-border-dblue-300">
+              <button
+                class="tw-flex tw-items-center tw-mt-auto tw-text-white tw-bg-green-500 tw-border-0 tw-py-2 tw-px-4 tw-w-full focus:tw-outline-none hover:tw-bg-green-600 tw-rounded">Buy Now
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="tw-w-4 tw-h-4 tw-ml-auto" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>  
+            </div>
+            <div class="tw-px-8 tw-text-right tw-mb-8 tw-flex tw-flex-col tw-items-start">          
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 GB RAM</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">20 GB SSD</span>
+            </p>
+            <p class="tw-text-dblue-500 tw-text-center tw-mb-2 tw-flex tw-items-center tw-justify-center"> 
+              <span
+                class="tw-w-5 tw-h-5 tw-inline-flex tw-items-center tw-justify-center tw-bg-dblue-500 tw-text-white tw-rounded-full tw-flex-shrink-0"> 
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                  class="tw-w-3 tw-h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> <span class=" tw-pl-4 ">1 TB Bandwidth</span>
+            </p>           
+            </div>          
+          </div>     
+        </div>        
+      </div>
+      <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>    
+  </section>
   
   <!-- ======= Hosting-Features Section ======= -->
   <section class="section section-bg-light-grey-1 hos-features pb-5 pt-5">
@@ -1714,6 +1993,31 @@
   <script src="./public/dist/lib/popper/popper.min.js"></script>
   <script src="./public/dist/js/bootstrap.min.js"></script>
   <script src="./public/dist/js/main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script>
+     var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})
+   </script>
 
 </body>
 
